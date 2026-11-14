@@ -116,6 +116,9 @@ export interface Sponsor {
   currency: string;
   status: SponsorStatus;
   rejectionReason?: string;
+  paypalOrderId?: string;
+  paypalCaptureId?: string;
+  paypalRefundId?: string;
   approvedAt?: string;
   startsAt?: string;
   expiresAt?: string;

@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import type { Sponsor } from '../../types/parliament';
-import { X, Sparkles, ShieldAlert, CheckCircle2, ArrowRight } from 'lucide-react';
+import { X, Sparkles, ShieldAlert, CheckCircle2, ArrowRight, ArrowLeft, Loader2, Lock, ExternalLink } from 'lucide-react';
 
 interface MecenasModalProps {
   isOpen: boolean;
@@ -16,37 +16,216 @@ export const MecenasModal: React.FC<MecenasModalProps> = ({
   minNextBidEur,
   onSuccess,
 }) => {
+  const [step, setStep] = useState<'form' | 'checkout' | 'success'>('form');
   const [name, setName] = useState('');
   const [url, setUrl] = useState('');
   const [message, setMessage] = useState('');
   const [amount, setAmount] = useState<number>(minNextBidEur);
-  const [submitting, setSubmitting] = useState(false);
+
+  // Estados de PayPal
+  const [sdkReady, setSdkReady] = useState(() => typeof window !== 'undefined' && Boolean((window as any).paypal));
+  const [sdkLoading, setSdkLoading] = useState(false);
+  const [sdkError, setSdkError] = useState<string | null>(null);
+  const [capturing, setCapturing] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const [success, setSuccess] = useState(false);
+  const paypalButtonsRef = useRef<any>(null);
+
+  // Cargar SDK de PayPal al abrir el modal
+  useEffect(() => {
+    if (!isOpen || (window as any).paypal) return;
+
+    let isCancelled = false;
+
+    queueMicrotask(() => {
+      if (!isCancelled) {
+        setSdkLoading(true);
+        setSdkError(null);
+      }
+    });
+
+    fetch('/api/sponsors/config')
+      .then((res) => {
+        if (!res.ok) throw new Error('No se pudo obtener la configuración de PayPal');
+        return res.json();
+      })
+      .then((cfg) => {
+        if (isCancelled) return;
+        const clientId = cfg.paypalClientId;
+        if (!clientId) {
+          throw new Error('Identificador de cliente de PayPal no disponible');
+        }
+
+        const existingScript = document.getElementById('paypal-sdk-script') as HTMLScriptElement | null;
+        if (existingScript) {
+          if ((window as any).paypal) {
+            setSdkReady(true);
+            setSdkLoading(false);
+          } else {
+            existingScript.addEventListener('load', () => {
+              if (!isCancelled) {
+                setSdkReady(true);
+                setSdkLoading(false);
+              }
+            });
+            existingScript.addEventListener('error', () => {
+              if (!isCancelled) {
+                setSdkError('Error al cargar la pasarela de PayPal');
+                setSdkLoading(false);
+              }
+            });
+          }
+          return;
+        }
+
+        const script = document.createElement('script');
+        script.id = 'paypal-sdk-script';
+        script.src = `https://www.paypal.com/sdk/js?client-id=${encodeURIComponent(clientId)}&currency=EUR&locale=es_ES`;
+        script.async = true;
+        script.onload = () => {
+          if (!isCancelled) {
+            setSdkReady(true);
+            setSdkLoading(false);
+          }
+        };
+        script.onerror = () => {
+          if (!isCancelled) {
+            setSdkError('No se pudo conectar con PayPal. Compruebe su conexión o desactive bloqueadores de publicidad.');
+            setSdkLoading(false);
+          }
+        };
+        document.head.appendChild(script);
+      })
+      .catch((err) => {
+        if (!isCancelled) {
+          setSdkError(err.message || 'Error de configuración de PayPal');
+          setSdkLoading(false);
+        }
+      });
+
+    return () => {
+      isCancelled = true;
+    };
+  }, [isOpen]);
+
+  // Renderizar botones de PayPal en el paso de checkout
+  useEffect(() => {
+    if (step !== 'checkout' || !sdkReady) return;
+
+    const container = document.getElementById('paypal-button-container');
+    if (!container || !(window as any).paypal) return;
+
+    container.innerHTML = '';
+
+    try {
+      const buttons = (window as any).paypal.Buttons({
+        style: {
+          layout: 'vertical',
+          color: 'gold',
+          shape: 'rect',
+          label: 'paypal',
+          height: 44,
+        },
+        createOrder: async () => {
+          setError(null);
+          try {
+            const res = await fetch('/api/sponsors/paypal-create-order', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({
+                amountEur: amount,
+                name: name.trim(),
+                url: url.trim(),
+                message: message.trim(),
+              }),
+            });
+            const data = await res.json();
+            if (!res.ok) {
+              throw new Error(data.error || 'Error al generar la orden en PayPal');
+            }
+            return data.orderId;
+          } catch (err: any) {
+            setError(err.message || 'Error al conectar con la pasarela');
+            throw err;
+          }
+        },
+        onApprove: async (data: any) => {
+          setCapturing(true);
+          setError(null);
+          try {
+            const res = await fetch('/api/sponsors/paypal-capture', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({
+                orderId: data.orderID,
+                name: name.trim(),
+                url: url.trim(),
+                message: message.trim(),
+                amountEur: amount,
+              }),
+            });
+            const resData = await res.json();
+            if (!res.ok) {
+              throw new Error(resData.error || 'Error al formalizar la captura del pago');
+            }
+            setStep('success');
+            onSuccess();
+          } catch (err: any) {
+            setError(err.message || 'Error al procesar la confirmación del pago');
+          } finally {
+            setCapturing(false);
+          }
+        },
+        onError: (err: any) => {
+          console.error('PayPal button error:', err);
+          setError('Ocurrió una incidencia con la pasarela de PayPal. Por favor, reinténtelo.');
+        },
+      });
+
+      paypalButtonsRef.current = buttons;
+      buttons.render('#paypal-button-container');
+    } catch (e: any) {
+      console.error('Error renderizando botones de PayPal:', e);
+      setTimeout(() => setError('No fue posible renderizar los botones de PayPal.'), 0);
+    }
+
+    return () => {
+      if (paypalButtonsRef.current?.close) {
+        try {
+          paypalButtonsRef.current.close();
+        } catch {
+          // ignore
+        }
+      }
+    };
+  }, [step, sdkReady, amount, name, url, message, onSuccess]);
 
   if (!isOpen) return null;
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleValidateForm = (e: React.FormEvent) => {
     e.preventDefault();
     setError(null);
 
-    if (!name.trim()) {
+    const trimmedName = name.trim();
+    const trimmedUrl = url.trim();
+    const trimmedMessage = message.trim();
+
+    if (!trimmedName) {
       setError('Por favor, indique el nombre de su oficio, proyecto o comercio.');
       return;
     }
-    if (name.length > 40) {
+    if (trimmedName.length > 40) {
       setError('El nombre no puede superar los 40 caracteres.');
       return;
     }
-    if (!url.startsWith('https://')) {
+    if (!trimmedUrl.startsWith('https://')) {
       setError('El enlace debe ser seguro y comenzar obligatoriamente por https://');
       return;
     }
-    if (!message.trim()) {
-      setError('Por favor, redacte una frase o mención explicativa.');
+    if (!trimmedMessage) {
+      setError('Por favor, redacte una frase o mención explicativa para el grabado.');
       return;
     }
-    if (message.length > 90) {
+    if (trimmedMessage.length > 90) {
       setError('El mensaje no puede superar los 90 caracteres.');
       return;
     }
@@ -55,41 +234,19 @@ export const MecenasModal: React.FC<MecenasModalProps> = ({
       return;
     }
 
-    setSubmitting(true);
-    try {
-      const res = await fetch('/api/sponsors/propose', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          name: name.trim(),
-          url: url.trim(),
-          message: message.trim(),
-          amountEur: amount,
-          paypalOrderId: `PAYPAL_${Date.now()}`,
-          paypalCaptureId: `CAP_${Date.now()}`,
-        }),
-      });
+    setStep('checkout');
+  };
 
-      if (!res.ok) {
-        const data = await res.json();
-        throw new Error(data.error || 'Error al registrar la puja.');
-      }
-
-      setSuccess(true);
-      setTimeout(() => {
-        onSuccess();
-      }, 2500);
-    } catch (err: any) {
-      setError(err.message || 'Error de conexión.');
-    } finally {
-      setSubmitting(false);
-    }
+  const handleResetAndClose = () => {
+    setStep('form');
+    setError(null);
+    onClose();
   };
 
   return (
     <div
       className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-black/60 backdrop-blur-xs animate-fadeIn"
-      onClick={onClose}
+      onClick={handleResetAndClose}
     >
       <div
         className="bg-[#FFFFFF] border-4 border-[#1B1A17] shadow-[6px_6px_0px_#1B1A17] max-w-xl w-full max-h-[92vh] flex flex-col font-editorial relative overflow-y-auto"
@@ -105,11 +262,15 @@ export const MecenasModal: React.FC<MecenasModalProps> = ({
               GACETA PARLAMENTARIA · AUSPICIO CÍVICO DE LA EDICIÓN
             </span>
             <h3 id="mecenas-modal-title" className="text-lg sm:text-xl font-headline font-bold text-[#1B1A17]">
-              Patrocinar la Próxima Edición de Diario del Voto
+              {step === 'checkout'
+                ? 'Confirmar y Abonar con PayPal'
+                : step === 'success'
+                ? '¡Auspicio Cívico Registrado!'
+                : 'Patrocinar la Próxima Edición de Diario del Voto'}
             </h3>
           </div>
           <button
-            onClick={onClose}
+            onClick={handleResetAndClose}
             className="p-1 border border-[#1B1A17] bg-[#FFFFFF] hover:bg-[#8F1D1D] hover:text-[#FFFFFF] transition"
             aria-label="Cerrar modal"
           >
@@ -117,21 +278,137 @@ export const MecenasModal: React.FC<MecenasModalProps> = ({
           </button>
         </div>
 
-        {success ? (
-          <div className="p-6 text-center space-y-3 bg-[#FAF7F0]">
-            <CheckCircle2 className="w-12 h-12 text-[#1F4D36] mx-auto animate-bounce" />
+        {/* PASO 3: ÉXITO TRAS PAGO CAPTURADO */}
+        {step === 'success' ? (
+          <div className="p-6 text-center space-y-4 bg-[#FAF7F0]">
+            <CheckCircle2 className="w-14 h-14 text-[#1F4D36] mx-auto animate-bounce" />
             <h4 className="text-xl font-headline font-bold text-[#1B1A17]">
-              ¡Puja Recibida y en Espera de Publicación!
+              ¡Pago Verificado y Propuesta Recibida!
             </h4>
             <p className="text-sm font-editorial text-[#4E4B44] max-w-md mx-auto">
-              Su propuesta por valor de <strong>{amount.toFixed(2)} €</strong> ha sido registrada. Tras la revisión editorial, se publicará en portada durante 24 horas ininterrumpidas.
+              Su aportación de <strong>{amount.toFixed(2)} €</strong> ha sido abonada mediante PayPal. La redacción revisará el texto de <strong>{name}</strong> de inmediato.
             </p>
-            <p className="text-xs font-mono text-[#6E695F]">
-              En caso de no ser admitida, PayPal le reembolsará automáticamente el 100% de los fondos.
+            <div className="bg-[#FFFFFF] border border-[#1B1A17] p-3 text-xs font-mono text-[#3D3A35] max-w-md mx-auto text-left space-y-1">
+              <div>✓ <strong>Proyecto:</strong> {name}</div>
+              <div>✓ <strong>Enlace:</strong> {url}</div>
+              <div>✓ <strong>Mensaje:</strong> «{message}»</div>
+              <div>✓ <strong>Garantía:</strong> 24 horas ininterrumpidas en cabecera tras aprobación.</div>
+            </div>
+            <p className="text-xs font-mono text-[#6E695F] max-w-md mx-auto">
+              🛡️ Recordatorio: Si la redacción desestimara la propuesta por incumplir las normas editoriales, el sistema emite el reembolso del 100% en PayPal al instante.
             </p>
+            <div className="pt-2">
+              <button
+                onClick={handleResetAndClose}
+                className="py-2.5 px-6 bg-[#1F4D36] hover:bg-[#163827] text-[#FFFFFF] font-typewriter font-bold text-xs border border-[#1B1A17] shadow-[2px_2px_0px_#1B1A17] transition"
+              >
+                Entendido y Volver a la Portada
+              </button>
+            </div>
+          </div>
+        ) : step === 'checkout' ? (
+          /* PASO 2: CONFIRMACIÓN Y PASARELA PAYPAL */
+          <div className="p-4 sm:p-5 space-y-4">
+            <button
+              onClick={() => { setStep('form'); setError(null); }}
+              className="text-xs font-mono text-[#8F1D1D] hover:underline flex items-center gap-1 font-bold mb-1"
+            >
+              <ArrowLeft className="w-3.5 h-3.5" /> Volver a editar datos del grabado
+            </button>
+
+            {/* Resumen del Pedido */}
+            <div className="bg-[#FAF7EE] border-2 border-[#1B1A17] p-3.5 shadow-[2px_2px_0px_#1B1A17] space-y-2">
+              <div className="flex justify-between items-baseline border-b border-[#D8D1C3] pb-2">
+                <span className="text-xs font-mono uppercase font-bold text-[#6E695F]">
+                  Concepto del Mecenazgo
+                </span>
+                <span className="text-base font-typewriter font-bold text-[#1B1A17]">
+                  {amount.toFixed(2)} €
+                </span>
+              </div>
+              <div className="text-xs font-editorial space-y-1 text-[#2B2925]">
+                <p><strong>Auspiciante:</strong> {name}</p>
+                <p className="flex items-center gap-1">
+                  <strong>Enlace:</strong>
+                  <a href={url} target="_blank" rel="noopener noreferrer" className="text-[#8F1D1D] underline flex items-center gap-0.5">
+                    {url.slice(0, 45)}
+                    <ExternalLink className="w-3 h-3" />
+                  </a>
+                </p>
+                <p className="italic text-[#3D3A35] bg-[#FFFFFF] p-2 border border-[#E5DECD]">
+                  «{message}»
+                </p>
+              </div>
+            </div>
+
+            {/* Cláusula de Devolución Íntegra */}
+            <div className="bg-[#FAF7F0] border border-[#1F4D36] p-3 text-xs font-editorial space-y-1">
+              <div className="font-bold font-headline text-[#1F4D36] flex items-center gap-1.5">
+                <Lock className="w-3.5 h-3.5" />
+                Garantía Total de Reembolso Editorial
+              </div>
+              <p className="text-[#3D3A35] text-[11px]">
+                El abono queda retenido en su orden. Si la dirección de <em>Diario del Voto</em> rechazara el anuncio por motivos editoriales (apuestas, criptomonedas o partidismo), <strong>PayPal devolverá el 100% de los {amount.toFixed(2)} € a su cuenta automáticamente</strong>.
+              </p>
+            </div>
+
+            {error && (
+              <div className="p-2.5 bg-[#FDF2F2] border border-[#8F1D1D] text-[#8F1D1D] text-xs font-mono flex items-center gap-2">
+                <ShieldAlert className="w-4 h-4 shrink-0" />
+                <span>{error}</span>
+              </div>
+            )}
+
+            {/* Contenedor de Botones de PayPal */}
+            <div className="space-y-2 pt-1">
+              <span className="text-[11px] font-mono uppercase text-[#1B1A17] font-bold block text-center">
+                Seleccione su método de abono seguro:
+              </span>
+
+              {sdkLoading && (
+                <div className="py-8 flex flex-col items-center justify-center gap-2 text-xs font-mono text-[#6E695F]">
+                  <Loader2 className="w-6 h-6 animate-spin text-[#8F1D1D]" />
+                  <span>Conectando con la pasarela segura de PayPal...</span>
+                </div>
+              )}
+
+              {sdkError && (
+                <div className="p-3 bg-[#FDF2F2] border border-[#8F1D1D] text-xs font-mono text-[#8F1D1D] space-y-2 text-center">
+                  <p>{sdkError}</p>
+                  <button
+                    onClick={() => window.location.reload()}
+                    className="px-3 py-1 bg-[#8F1D1D] text-white text-xs font-mono uppercase font-bold"
+                  >
+                    Recargar página
+                  </button>
+                </div>
+              )}
+
+              {capturing && (
+                <div className="py-6 flex flex-col items-center justify-center gap-2 bg-[#FAF7EE] border border-[#1B1A17]">
+                  <Loader2 className="w-6 h-6 animate-spin text-[#1F4D36]" />
+                  <span className="text-xs font-mono font-bold text-[#1B1A17]">
+                    Verificando y formalizando el mecenazgo con PayPal...
+                  </span>
+                  <span className="text-[10px] font-mono text-[#6E695F]">
+                    Por favor, no cierre esta ventana.
+                  </span>
+                </div>
+              )}
+
+              <div
+                id="paypal-button-container"
+                className={`min-h-[100px] transition ${capturing ? 'pointer-events-none opacity-40' : ''}`}
+              />
+
+              <p className="text-[10px] font-editorial text-center text-[#6E695F] pt-1">
+                🔒 Conexión cifrada TLS 1.3 de extremo a extremo. Diario del Voto nunca tiene acceso a sus datos bancarios o de tarjeta.
+              </p>
+            </div>
           </div>
         ) : (
-          <form onSubmit={handleSubmit} className="p-4 sm:p-5 space-y-4">
+          /* PASO 1: FORMULARIO DE TEXTO Y PUJA */
+          <form onSubmit={handleValidateForm} className="p-4 sm:p-5 space-y-4">
             {/* Manifiesto Editorial */}
             <div className="bg-[#FAF7F0] border border-[#1B1A17] p-3 text-xs font-editorial space-y-1.5 shadow-[1px_1px_0px_#1B1A17]">
               <div className="font-bold font-headline text-[#1B1A17] flex items-center gap-1.5">
@@ -253,20 +530,17 @@ export const MecenasModal: React.FC<MecenasModalProps> = ({
               </p>
             </div>
 
-            {/* Botón de Pago con PayPal */}
+            {/* Botón para pasar a la confirmación y pago */}
             <div className="pt-2">
               <button
                 type="submit"
-                disabled={submitting}
-                className="w-full py-2.5 px-4 bg-[#FFC439] hover:bg-[#F4B400] text-[#111111] font-bold border-2 border-[#1B1A17] shadow-[2px_2px_0px_#1B1A17] flex items-center justify-center gap-2 text-sm font-typewriter transition disabled:opacity-50"
+                className="w-full py-2.5 px-4 bg-[#FFC439] hover:bg-[#F4B400] text-[#111111] font-bold border-2 border-[#1B1A17] shadow-[2px_2px_0px_#1B1A17] flex items-center justify-center gap-2 text-sm font-typewriter transition"
               >
-                <span>Pagar {amount.toFixed(2)} € con</span>
-                <span className="font-extrabold italic tracking-tighter text-[#003087]">Pay</span>
-                <span className="font-extrabold italic tracking-tighter text-[#0079C1]">Pal</span>
+                <span>Avanzar al Pago Seguro de {amount.toFixed(2)} €</span>
                 <ArrowRight className="w-4 h-4 ml-1" />
               </button>
               <p className="text-[10px] font-editorial text-center text-[#6E695F] mt-2">
-                🔒 Cero datos bancarios almacenados en Diario del Voto. Si la dirección de la gaceta rechaza la publicación, se reembolsa el 100% de inmediato.
+                🔒 En el siguiente paso podrá abonar con PayPal o Tarjeta de forma 100% protegida.
               </p>
             </div>
           </form>

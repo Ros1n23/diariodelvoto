@@ -28,6 +28,7 @@ def init_sponsors_table():
         rejection_reason TEXT,
         paypal_order_id TEXT UNIQUE,
         paypal_capture_id TEXT UNIQUE,
+        paypal_refund_id TEXT,
         approved_at TEXT,
         starts_at TEXT,
         expires_at TEXT,

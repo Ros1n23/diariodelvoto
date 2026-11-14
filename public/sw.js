@@ -1,5 +1,5 @@
-// QueVotan Service Worker — Modo de Lectura Sin Conexión para la Ciudadanía
-const CACHE_NAME = 'quevotan-gaceta-v3';
+// Diario del Voto Service Worker — Modo de Lectura Sin Conexión para la Ciudadanía
+const CACHE_NAME = 'diariodelvoto-gaceta-v4';
 const PRECACHE_URLS = [
   '/',
   '/favicon.svg',

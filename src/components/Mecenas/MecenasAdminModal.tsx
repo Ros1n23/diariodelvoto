@@ -71,9 +71,12 @@ export const MecenasAdminModal: React.FC<MecenasAdminModalProps> = ({
       if (res.ok) {
         await refreshPending();
         onModerated();
+      } else {
+        const data = await res.json().catch(() => ({}));
+        alert(`Error al aprobar: ${data.error || 'Fallo en el servidor'}`);
       }
-    } catch {
-      alert('Error al aprobar');
+    } catch (err: any) {
+      alert(`Error de conexión: ${err.message}`);
     } finally {
       setProcessingId(null);
     }
@@ -90,9 +93,12 @@ export const MecenasAdminModal: React.FC<MecenasAdminModalProps> = ({
       if (res.ok) {
         await refreshPending();
         onModerated();
+      } else {
+        const data = await res.json().catch(() => ({}));
+        alert(`Error al rechazar: ${data.error || 'Fallo al procesar el reembolso en PayPal'}`);
       }
-    } catch {
-      alert('Error al rechazar');
+    } catch (err: any) {
+      alert(`Error de conexión: ${err.message}`);
     } finally {
       setProcessingId(null);
     }
@@ -174,9 +180,16 @@ export const MecenasAdminModal: React.FC<MecenasAdminModalProps> = ({
                       <ExternalLink className="w-3 h-3" />
                     </a>
                   </div>
-                  <span className="text-sm font-typewriter font-bold px-2 py-0.5 bg-[#FAF7EE] border border-[#1B1A17] text-[#1B1A17]">
-                    {p.amountEur.toFixed(2)} €
-                  </span>
+                  <div className="flex items-center gap-1.5">
+                    {p.paypalCaptureId && (
+                      <span className="text-[10px] font-mono px-1.5 py-0.5 bg-[#E8F5E9] text-[#1F4D36] border border-[#1F4D36] font-bold">
+                        PayPal ✓
+                      </span>
+                    )}
+                    <span className="text-sm font-typewriter font-bold px-2 py-0.5 bg-[#FAF7EE] border border-[#1B1A17] text-[#1B1A17]">
+                      {p.amountEur.toFixed(2)} €
+                    </span>
+                  </div>
                 </div>
 
                 <p className="text-sm font-editorial italic text-[#3D3A35] bg-[#FAF7EE] p-2.5 border border-[#D8D1C3]">

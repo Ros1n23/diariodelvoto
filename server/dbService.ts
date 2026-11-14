@@ -279,7 +279,13 @@ export function getPendingSponsors(): Sponsor[] {
   return rows.map(formatSponsor);
 }
 
-export function moderateSponsor(id: string, action: 'approve' | 'reject', rejectionReason?: string): Sponsor | null {
+export function getSponsorById(id: string): Sponsor | null {
+  const db = getDb();
+  const row = db.prepare(`SELECT * FROM sponsors WHERE id = ?`).get(id) as any;
+  return row ? formatSponsor(row) : null;
+}
+
+export function moderateSponsor(id: string, action: 'approve' | 'reject', rejectionReason?: string, refundId?: string): Sponsor | null {
   const db = getDb();
   const sponsor = db.prepare(`SELECT * FROM sponsors WHERE id = ?`).get(id) as any;
   if (!sponsor) return null;
@@ -307,8 +313,12 @@ export function moderateSponsor(id: string, action: 'approve' | 'reject', reject
     }
   } else if (action === 'reject') {
     db.prepare(`
-      UPDATE sponsors SET status = 'rejected', rejection_reason = ? WHERE id = ?
-    `).run(rejectionReason || 'No cumple las normas editoriales de la gaceta', id);
+      UPDATE sponsors SET status = 'rejected', rejection_reason = ?, paypal_refund_id = ? WHERE id = ?
+    `).run(
+      rejectionReason || 'No cumple las normas editoriales de la gaceta',
+      refundId || sponsor.paypal_refund_id || null,
+      id
+    );
   }
 
   const updated = db.prepare(`SELECT * FROM sponsors WHERE id = ?`).get(id) as any;
@@ -326,6 +336,9 @@ function formatSponsor(r: any): Sponsor {
     currency: r.currency || 'EUR',
     status: r.status,
     rejectionReason: r.rejection_reason || undefined,
+    paypalOrderId: r.paypal_order_id || undefined,
+    paypalCaptureId: r.paypal_capture_id || undefined,
+    paypalRefundId: r.paypal_refund_id || undefined,
     approvedAt: r.approved_at || undefined,
     startsAt: r.starts_at || undefined,
     expiresAt: r.expires_at || undefined,
