@@ -1,0 +1,467 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    color-scheme: light;
+    --paper-bg: #FBF8F1;
+    --paper-card: #FFFFFF;
+    --paper-card-subtle: #F6F2E9;
+    --paper-sepia: #EDE6D6;
+    --ink-black: #1B1A17;
+    --ink-lead: #3D3A35;
+    --ink-muted: #6E695F;
+    --ink-border: #D8D1C3;
+    --ink-border-dark: #1B1A17;
+    --crimson: #8F1D1D;
+    --navy-ink: #1B365D;
+    --forest-stamp: #1F4D36;
+  }
+
+  html.dark {
+    color-scheme: dark;
+    --paper-bg: #141311;
+    --paper-card: #1E1D19;
+    --paper-card-subtle: #25231E;
+    --paper-sepia: #2A2822;
+    --ink-black: #EDE7DD;
+    --ink-lead: #C5BFB3;
+    --ink-muted: #948E82;
+    --ink-border: #36332B;
+    --ink-border-dark: #4A453A;
+    --crimson: #F87171;
+    --navy-ink: #60A5FA;
+    --forest-stamp: #4ADE80;
+  }
+
+  body {
+    margin: 0;
+    font-family: 'Newsreader', Georgia, Cambria, 'Times New Roman', serif;
+    background-color: var(--paper-bg);
+    color: var(--ink-black);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', Georgia, serif;
+    color: var(--ink-black);
+  }
+}
+
+/* Custom Editorial Newspaper Classes */
+.font-masthead {
+  font-family: 'UnifrakturMaguntia', 'Cinzel Decorative', 'Playfair Display', Georgia, serif;
+}
+
+.font-headline {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-editorial {
+  font-family: 'Newsreader', Georgia, serif;
+}
+
+.font-typewriter {
+  font-family: 'Courier Prime', Courier, monospace;
+}
+
+/* Oxford Rules (Líneas dobles de imprenta clásica) */
+.rule-oxford {
+  border-top: 3px solid #1B1A17;
+  border-bottom: 1px solid #1B1A17;
+  padding: 3px 0;
+}
+
+.rule-oxford-thick {
+  border-top: 4px double #1B1A17;
+  border-bottom: 1px solid #1B1A17;
+}
+
+.rule-double {
+  border-top: 3px double #1B1A17;
+}
+
+.rule-thin {
+  border-top: 1px solid #D8D1C3;
+}
+
+.column-rule {
+  border-right: 1px solid #D8D1C3;
+}
+
+/* Letra Capitular (Drop Cap) */
+.drop-cap::first-letter {
+  float: left;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 3.5rem;
+  line-height: 0.8;
+  padding-top: 6px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  font-weight: 700;
+  color: #1B1A17;
+}
+
+/* Sellos de Caucho Parlamentarios (Rubber Stamps) */
+.stamp-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Courier Prime', monospace;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 0.25rem 0.75rem;
+  border: 2px solid currentColor;
+  box-shadow: inset 0 0 0 1px currentColor, 1px 1px 0px rgba(0,0,0,0.1);
+  transform: rotate(-1deg);
+  font-size: 0.75rem;
+  line-height: 1;
+}
+
+.stamp-approved {
+  color: #1F4D36;
+  border-color: #1F4D36;
+  background-color: rgba(31, 77, 54, 0.05);
+}
+
+.stamp-rejected {
+  color: #8F1D1D;
+  border-color: #8F1D1D;
+  background-color: rgba(143, 29, 29, 0.05);
+}
+
+.stamp-in-progress {
+  color: #1B365D;
+  border-color: #1B365D;
+  background-color: rgba(27, 54, 93, 0.05);
+  transform: rotate(0.8deg);
+}
+
+.stamp-scheduled {
+  color: #553C7B;
+  border-color: #553C7B;
+  background-color: rgba(85, 60, 123, 0.05);
+}
+
+/* Textura sutil de papel prensa */
+.paper-sheet {
+  background-color: #FFFFFF;
+  box-shadow: 0 1px 3px rgba(27, 26, 23, 0.08), 0 4px 12px rgba(27, 26, 23, 0.03);
+  border: 1px solid #D8D1C3;
+}
+
+.paper-box {
+  background-color: #F8F5EC;
+  border: 1px solid #D8D1C3;
+}
+
+/* Grabado / Estilo Calcográfico */
+.engraving-border {
+  border: 2px solid #1B1A17;
+  outline: 1px solid #D8D1C3;
+  outline-offset: 3px;
+}
+
+/* Destacado de iniciativa cuando se accede mediante enlace directo */
+:target {
+  scroll-margin-top: 1.5rem;
+  animation: article-focus-flash 2.5s ease-out;
+}
+
+@keyframes article-focus-flash {
+  0% {
+    outline: 4px solid #8F1D1D;
+    box-shadow: 0 0 25px rgba(143, 29, 29, 0.4);
+  }
+  70% {
+    outline: 3px solid #8F1D1D;
+    box-shadow: 0 0 12px rgba(143, 29, 29, 0.2);
+  }
+  100% {
+    outline: 2px solid #1B1A17;
+  }
+}
+
+/* ========================================================================== */
+/* EDICIÓN NOCTURNA / MODO OSCURO HISTÓRICO (TINTA SOBRE PIZARRA)             */
+/* ========================================================================== */
+html.dark body {
+  background-color: #141311 !important;
+  color: #EDE7DD !important;
+}
+
+/* Fondos de Papel Prensa */
+html.dark .bg-\[\#FBF8F1\],
+html.dark .bg-\[\#FAF7EE\],
+html.dark .bg-\[\#FAF7F0\],
+html.dark .bg-\[\#FAF7F2\],
+html.dark .bg-\[\#FAF8F2\],
+html.dark .bg-\[\#FBF8ED\],
+html.dark .bg-\[\#F8F5EC\],
+html.dark .bg-\[\#F6F2E9\],
+html.dark .bg-\[\#F4EFE6\],
+html.dark .bg-\[\#F3EFE4\],
+html.dark .bg-\[\#FDFBF7\],
+html.dark .bg-\[\#EDE6D6\],
+html.dark .bg-\[\#EAE4D7\],
+html.dark .bg-\[\#E5DFD3\],
+html.dark .bg-\[\#E5DECD\],
+html.dark .bg-\[\#F6F1E5\] {
+  background-color: #1E1D19 !important;
+}
+
+html.dark .bg-\[\#FFFFFF\] {
+  background-color: #25231E !important;
+}
+
+/* Botones y badges negros */
+html.dark .bg-\[\#1B1A17\] {
+  background-color: #38342C !important;
+  color: #FFFFFF !important;
+}
+
+/* Fondos tenues coloreados (Alertas, Sí, No, Tramitación) */
+html.dark .bg-\[\#FDF2F2\],
+html.dark .bg-\[\#FDF8F8\],
+html.dark .bg-\[\#FDF9F9\],
+html.dark .bg-\[\#FAF4F4\] {
+  background-color: rgba(239, 68, 68, 0.16) !important;
+}
+
+html.dark .bg-\[\#F6FAF5\],
+html.dark .bg-\[\#FAFDF9\],
+html.dark .bg-\[\#F6F8F6\] {
+  background-color: rgba(34, 197, 94, 0.16) !important;
+}
+
+html.dark .bg-\[\#F4F6F9\],
+html.dark .bg-\[\#F3F6FA\],
+html.dark .bg-\[\#F2F6FC\] {
+  background-color: rgba(59, 130, 246, 0.16) !important;
+}
+
+html.dark .bg-\[\#F8F5FA\],
+html.dark .bg-\[\#FDFBFE\] {
+  background-color: rgba(168, 85, 247, 0.16) !important;
+}
+
+html.dark .bg-\[\#FDF6E8\] {
+  background-color: rgba(245, 158, 11, 0.16) !important;
+}
+
+/* Textos principales */
+html.dark .text-\[\#1B1A17\],
+html.dark .text-\[\#1C1B18\],
+html.dark .text-\[\#111111\] {
+  color: #EDE7DD !important;
+}
+
+html.dark .text-\[\#3D3A35\],
+html.dark .text-\[\#3E3C38\],
+html.dark .text-\[\#4E4B44\],
+html.dark .text-\[\#5C574F\] {
+  color: #C5BFB3 !important;
+}
+
+html.dark .text-\[\#6E695F\],
+html.dark .text-\[\#787266\],
+html.dark .text-\[\#8C877D\],
+html.dark .text-\[\#A09A8E\],
+html.dark .text-\[\#A49F93\] {
+  color: #948E82 !important;
+}
+
+/* Colores de acento con contraste nocturno optimizado */
+html.dark .text-\[\#8F1D1D\],
+html.dark .text-\[\#6E1616\] {
+  color: #F87171 !important;
+}
+
+html.dark .text-\[\#1F4D36\],
+html.dark .text-\[\#163827\] {
+  color: #4ADE80 !important;
+}
+
+html.dark .text-\[\#1B365D\],
+html.dark .text-\[\#12243F\],
+html.dark .text-\[\#0079C1\],
+html.dark .text-\[\#003087\] {
+  color: #60A5FA !important;
+}
+
+html.dark .text-\[\#553C7B\] {
+  color: #C084FC !important;
+}
+
+html.dark .text-\[\#A26815\] {
+  color: #FBBF24 !important;
+}
+
+/* Bordes */
+html.dark .border-\[\#1B1A17\] {
+  border-color: #4A453A !important;
+}
+
+html.dark .border-\[\#D8D1C3\],
+html.dark .border-\[\#E5DECD\],
+html.dark .border-\[\#E5DFD3\],
+html.dark .border-\[\#E8DFC8\],
+html.dark .border-\[\#C8C2B3\],
+html.dark .border-\[\#B8B0A0\],
+html.dark .border-\[\#FAF7EE\] {
+  border-color: #36332B !important;
+}
+
+html.dark .border-\[\#8F1D1D\] {
+  border-color: #EF4444 !important;
+}
+
+html.dark .border-\[\#1F4D36\] {
+  border-color: #22C55E !important;
+}
+
+html.dark .border-\[\#1B365D\] {
+  border-color: #3B82F6 !important;
+}
+
+html.dark .border-\[\#553C7B\] {
+  border-color: #A855F7 !important;
+}
+
+html.dark .border-\[\#A26815\] {
+  border-color: #F59E0B !important;
+}
+
+/* Elementos de Formulario (inputs, selects) */
+html.dark input,
+html.dark select,
+html.dark textarea {
+  background-color: #25231E !important;
+  color: #EDE7DD !important;
+  border-color: #4A453A !important;
+}
+
+html.dark input::placeholder,
+html.dark textarea::placeholder {
+  color: #7A7467 !important;
+}
+
+/* Hover de botones y listas */
+html.dark .hover\:bg-\[\#FAF7F0\]:hover,
+html.dark .hover\:bg-\[\#FAF7EE\]:hover,
+html.dark .hover\:bg-\[\#E5DECD\]:hover,
+html.dark .hover\:bg-\[\#EAE4D7\]:hover {
+  background-color: #2D2A24 !important;
+}
+
+html.dark .hover\:text-\[\#8F1D1D\]:hover {
+  color: #F87171 !important;
+}
+
+/* Reglas de imprenta (Oxford rules) */
+html.dark .rule-oxford,
+html.dark .rule-oxford-thick,
+html.dark .rule-double {
+  border-color: #4A453A !important;
+}
+
+html.dark .rule-thin,
+html.dark .column-rule {
+  border-color: #36332B !important;
+}
+
+html.dark .paper-sheet {
+  background-color: #25231E !important;
+  border-color: #36332B !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) !important;
+}
+
+html.dark .paper-box {
+  background-color: #1E1D19 !important;
+  border-color: #36332B !important;
+}
+
+html.dark .drop-cap::first-letter {
+  color: #EDE7DD !important;
+}
+
+/* Sombras en modo oscuro */
+html.dark [class*="shadow-\["][class*="\#1B1A17\]"] {
+  box-shadow: 2px 2px 0px #000000 !important;
+}
+
+/* Sellos parlamentarios */
+html.dark .stamp-approved {
+  color: #4ADE80 !important;
+  border-color: #4ADE80 !important;
+  background-color: rgba(74, 222, 128, 0.12) !important;
+}
+
+html.dark .stamp-rejected {
+  color: #F87171 !important;
+  border-color: #F87171 !important;
+  background-color: rgba(248, 113, 113, 0.12) !important;
+}
+
+html.dark .stamp-in-progress {
+  color: #60A5FA !important;
+  border-color: #60A5FA !important;
+  background-color: rgba(96, 165, 250, 0.12) !important;
+}
+
+html.dark .stamp-scheduled {
+  color: #C084FC !important;
+  border-color: #C084FC !important;
+  background-color: rgba(192, 132, 252, 0.12) !important;
+}
+
+/* SVGs / Guías del Hemiciclo */
+html.dark svg path[stroke="#D8D1C3"] {
+  stroke: #36332B !important;
+}
+
+html.dark svg rect[fill="#2D2B27"] {
+  fill: #141311 !important;
+  stroke: #4A453A !important;
+}
+
+html.dark svg text[fill="#FAF7EE"] {
+  fill: #EDE7DD !important;
+}
+
+/* Selección de texto */
+html.dark ::selection {
+  background-color: #4A453A !important;
+  color: #EDE7DD !important;
+}
+
+/* ========================================================================== */
+/* ESTILOS DE IMPRESIÓN OFICIAL (EDICIÓN IMPRESA / PRENSA FÍSICA)             */
+/* ========================================================================== */
+@media print {
+  body {
+    background-color: #FFFFFF !important;
+    color: #000000 !important;
+    font-size: 11pt !important;
+  }
+
+  /* Ocultar elementos interactivos */
+  nav, button, input, select, .no-print, [role="dialog"], #main-search-input {
+    display: none !important;
+  }
+
+  /* Evitar cortes indeseados en mitades de página */
+  article, section {
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+    box-shadow: none !important;
+    border: 1px solid #000000 !important;
+    margin-bottom: 1.5rem !important;
+  }
+
+  /* Cabecera de prensa impresa */
+  header {
+    border-bottom: 3px double #000000 !important;
+  }
+}

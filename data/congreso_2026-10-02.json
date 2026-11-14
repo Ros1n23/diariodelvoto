@@ -1,0 +1,6559 @@
+[
+  {
+    "id": "congreso-2026-10-02-1",
+    "title": "El Gobierno aprueba medidas urgentes para ampliar la oferta de vivienda asequible",
+    "officialTitle": "Real Decreto-ley 26/2026, de 29 de septiembre, por el que se adoptan medidas urgentes para la protección de la función social de la vivienda y la ampliación de la oferta de vivienda asequible. (Pública por llamamiento)",
+    "chamber": "congreso",
+    "date": "2026-10-02",
+    "time": "18:00",
+    "type": "real_decreto_ley",
+    "status": "rechazado",
+    "category": "Vivienda",
+    "summary": "El Ejecutivo implementa un decreto-ley para proteger la función social de la vivienda y aumentar el parque de inmuebles a precios accesibles. Esta norma busca frenar la escalada de precios y facilitar el acceso habitacional mediante cambios regulatorios inmediatos.",
+    "isOmnibus": true,
+    "measures": [
+      {
+        "id": "congreso-2026-10-02-1-m1",
+        "title": "Ampliación de la oferta de vivienda asequible",
+        "category": "Regulación inmobiliaria",
+        "plainDescription": "Se establecen mecanismos para incentivar la puesta en alquiler de viviendas vacías y se agilizan los trámites para la construcción de nuevas unidades protegidas.",
+        "whoIsAffected": [
+          "Propietarios de viviendas vacías",
+          "Jóvenes y familias con rentas bajas",
+          "Promotores inmobiliarios"
+        ],
+        "realWorldExample": "Un propietario con un piso vacío en Madrid podría recibir beneficios fiscales si lo alquila a un precio un 20% inferior al mercado, ahorrándose unos 1.200 euros anuales en impuestos.",
+        "argumentsPro": [
+          "Aumenta el número de viviendas disponibles para reducir la presión sobre los precios",
+          "Fomenta la colaboración público-privada para construir vivienda social"
+        ],
+        "argumentsContra": [
+          "Riesgo de inseguridad jurídica para los propietarios",
+          "Críticas sobre la posible insuficiencia de las medidas para bajar los precios de forma estructural"
+        ]
+      }
+    ],
+    "votesSummary": {
+      "si": 172,
+      "no": 178,
+      "abstencion": 0,
+      "noVota": 0,
+      "total": 350
+    },
+    "groupVotes": [
+      {
+        "groupName": "G.P. Popular (PP)",
+        "totalSeats": 137,
+        "si": 137,
+        "no": 0,
+        "abstencion": 0,
+        "noVota": 0,
+        "color": "#0ea5e9"
+      },
+      {
+        "groupName": "G.P. Socialista (PSOE)",
+        "totalSeats": 121,
+        "si": 35,
+        "no": 86,
+        "abstencion": 0,
+        "noVota": 0,
+        "color": "#ef4444"
+      },
+      {
+        "groupName": "G.P. VOX",
+        "totalSeats": 33,
+        "si": 0,
+        "no": 33,
+        "abstencion": 0,
+        "noVota": 0,
+        "color": "#22c55e"
+      },
+      {
+        "groupName": "G.P. Plurinacional Sumar",
+        "totalSeats": 27,
+        "si": 0,
+        "no": 27,
+        "abstencion": 0,
+        "noVota": 0,
+        "color": "#ec4899"
+      },
+      {
+        "groupName": "G.P. Republicano (ERC)",
+        "totalSeats": 7,
+        "si": 0,
+        "no": 7,
+        "abstencion": 0,
+        "noVota": 0,
+        "color": "#f59e0b"
+      },
+      {
+        "groupName": "G.P. Junts per Catalunya",
+        "totalSeats": 7,
+        "si": 0,
+        "no": 7,
+        "abstencion": 0,
+        "noVota": 0,
+        "color": "#06b6d4"
+      },
+      {
+        "groupName": "G.P. Euskal Herria Bildu",
+        "totalSeats": 6,
+        "si": 0,
+        "no": 6,
+        "abstencion": 0,
+        "noVota": 0,
+        "color": "#84cc16"
+      },
+      {
+        "groupName": "G.P. Vasco (EAJ-PNV)",
+        "totalSeats": 5,
+        "si": 0,
+        "no": 5,
+        "abstencion": 0,
+        "noVota": 0,
+        "color": "#10b981"
+      },
+      {
+        "groupName": "G.P. Mixto (Podemos/BNG/CC/UPN)",
+        "totalSeats": 7,
+        "si": 0,
+        "no": 7,
+        "abstencion": 0,
+        "noVota": 0,
+        "color": "#8b5cf6"
+      }
+    ],
+    "deputies": [
+      {
+        "id": "dep-1",
+        "name": "Abascal Conde, Santiago",
+        "group": "G.P. Popular (PP)",
+        "party": "VOX",
+        "seatNumber": 1,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-2",
+        "name": "Acedo Reyes, Sofía",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 2,
+        "vote": "si",
+        "province": "Melilla"
+      },
+      {
+        "id": "dep-3",
+        "name": "Aizcorbe Torra, Juan José",
+        "group": "G.P. Popular (PP)",
+        "party": "VOX",
+        "seatNumber": 3,
+        "vote": "si",
+        "province": "Barcelona"
+      },
+      {
+        "id": "dep-4",
+        "name": "Aizpurua Arzallus, Mertxe",
+        "group": "G.P. Popular (PP)",
+        "party": "EH Bildu",
+        "seatNumber": 4,
+        "vote": "si",
+        "province": "Gipuzkoa"
+      },
+      {
+        "id": "dep-5",
+        "name": "Alfonso Cendón, Javier",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 5,
+        "vote": "si",
+        "province": "León"
+      },
+      {
+        "id": "dep-6",
+        "name": "Alós López, Ana Isabel",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 6,
+        "vote": "si",
+        "province": "Huesca"
+      },
+      {
+        "id": "dep-7",
+        "name": "Álvarez de Toledo Peralta-Ramos, Cayetana",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 7,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-8",
+        "name": "Álvarez Fanjul, Beatriz",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 8,
+        "vote": "si",
+        "province": "Bizkaia"
+      },
+      {
+        "id": "dep-9",
+        "name": "Andala Ubbi, Teslem",
+        "group": "G.P. Popular (PP)",
+        "party": "SUMAR",
+        "seatNumber": 9,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-10",
+        "name": "Aragonés Mendiguchía, Carlos",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 10,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-11",
+        "name": "Aranda Vargas, Francisco",
+        "group": "G.P. Popular (PP)",
+        "party": "PSC-PSOE",
+        "seatNumber": 11,
+        "vote": "si",
+        "province": "Barcelona"
+      },
+      {
+        "id": "dep-12",
+        "name": "Argüelles García, Silverio",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 12,
+        "vote": "si",
+        "province": "Asturias"
+      },
+      {
+        "id": "dep-13",
+        "name": "Armengol Socias, Francina",
+        "group": "G.P. Popular (PP)",
+        "party": "PSIB-PSOE",
+        "seatNumber": 13,
+        "vote": "si",
+        "province": "Balears (Illes)"
+      },
+      {
+        "id": "dep-14",
+        "name": "Arribas Maroto, Manuel",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 14,
+        "vote": "si",
+        "province": "Ávila"
+      },
+      {
+        "id": "dep-15",
+        "name": "Belarra Urteaga, Ione",
+        "group": "G.P. Popular (PP)",
+        "party": "SUMAR",
+        "seatNumber": 15,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-16",
+        "name": "Bendodo Benasayag, Elías",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 16,
+        "vote": "si",
+        "province": "Málaga"
+      },
+      {
+        "id": "dep-17",
+        "name": "Bermúdez de Castro Fernández, José Antonio",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 17,
+        "vote": "si",
+        "province": "Salamanca"
+      },
+      {
+        "id": "dep-18",
+        "name": "Blanquer Alcaraz, Patricia",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 18,
+        "vote": "si",
+        "province": "Alicante/Alacant"
+      },
+      {
+        "id": "dep-19",
+        "name": "Bravo Baena, Juan",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 19,
+        "vote": "si",
+        "province": "Sevilla"
+      },
+      {
+        "id": "dep-20",
+        "name": "Cabezón Casas, Tomás",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 20,
+        "vote": "si",
+        "province": "Soria"
+      },
+      {
+        "id": "dep-21",
+        "name": "Carazo Hermoso, Eduardo",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 21,
+        "vote": "si",
+        "province": "Valladolid"
+      },
+      {
+        "id": "dep-22",
+        "name": "Castilla Álvarez, María Carmen",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 22,
+        "vote": "si",
+        "province": "Sevilla"
+      },
+      {
+        "id": "dep-23",
+        "name": "Chamorro Delmo, Ricardo",
+        "group": "G.P. Popular (PP)",
+        "party": "VOX",
+        "seatNumber": 23,
+        "vote": "si",
+        "province": "Ciudad Real"
+      },
+      {
+        "id": "dep-24",
+        "name": "Clavell López, Óscar",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 24,
+        "vote": "si",
+        "province": "Castellón/Castelló"
+      },
+      {
+        "id": "dep-25",
+        "name": "Cobo Vega, Manuel",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 25,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-26",
+        "name": "Conde López, Francisco José",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 26,
+        "vote": "si",
+        "province": "Lugo"
+      },
+      {
+        "id": "dep-27",
+        "name": "Corujo Berriel, María Dolores",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 27,
+        "vote": "si",
+        "province": "Palmas (Las)"
+      },
+      {
+        "id": "dep-28",
+        "name": "Crespín Rubio, Rafaela",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 28,
+        "vote": "si",
+        "province": "Córdoba"
+      },
+      {
+        "id": "dep-29",
+        "name": "Cruset Domènech, Josep Maria",
+        "group": "G.P. Popular (PP)",
+        "party": "JxCAT-JUNTS",
+        "seatNumber": 29,
+        "vote": "si",
+        "province": "Tarragona"
+      },
+      {
+        "id": "dep-30",
+        "name": "Cruz-Guzmán García, María Soledad",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 30,
+        "vote": "si",
+        "province": "Sevilla"
+      },
+      {
+        "id": "dep-31",
+        "name": "De las Cuevas Cortés, Félix",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 31,
+        "vote": "si",
+        "province": "Cantabria"
+      },
+      {
+        "id": "dep-32",
+        "name": "De los Santos González, Jaime Miguel",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 32,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-33",
+        "name": "De Meer Méndez, Rocío",
+        "group": "G.P. Popular (PP)",
+        "party": "VOX",
+        "seatNumber": 33,
+        "vote": "si",
+        "province": "Almería"
+      },
+      {
+        "id": "dep-34",
+        "name": "De Rosa Torner, Fernando",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 34,
+        "vote": "si",
+        "province": "Valencia/València"
+      },
+      {
+        "id": "dep-35",
+        "name": "Diouf Dioh, Luc Andre",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 35,
+        "vote": "si",
+        "province": "Palmas (Las)"
+      },
+      {
+        "id": "dep-36",
+        "name": "Fabra Part, Alberto",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 36,
+        "vote": "si",
+        "province": "Castellón/Castelló"
+      },
+      {
+        "id": "dep-37",
+        "name": "Fagúndez Campo, Antidio",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 37,
+        "vote": "si",
+        "province": "Zamora"
+      },
+      {
+        "id": "dep-38",
+        "name": "Faneca López, María Luisa",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 38,
+        "vote": "si",
+        "province": "Huelva"
+      },
+      {
+        "id": "dep-39",
+        "name": "Fernández Benéitez, Andrea",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 39,
+        "vote": "si",
+        "province": "León"
+      },
+      {
+        "id": "dep-40",
+        "name": "Fernández González, María Mercedes",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 40,
+        "vote": "si",
+        "province": "Asturias"
+      },
+      {
+        "id": "dep-41",
+        "name": "Figaredo Álvarez-Sala, José María",
+        "group": "G.P. Popular (PP)",
+        "party": "VOX",
+        "seatNumber": 41,
+        "vote": "si",
+        "province": "Asturias"
+      },
+      {
+        "id": "dep-42",
+        "name": "Floriano Corrales, Carlos Javier",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 42,
+        "vote": "si",
+        "province": "Cáceres"
+      },
+      {
+        "id": "dep-43",
+        "name": "Fúnez de Gregorio, Carmen",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 43,
+        "vote": "si",
+        "province": "Ciudad Real"
+      },
+      {
+        "id": "dep-44",
+        "name": "Gamarra Ruiz-Clavijo, Concepción",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 44,
+        "vote": "si",
+        "province": "Rioja (La)"
+      },
+      {
+        "id": "dep-45",
+        "name": "García López, Maribel",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 45,
+        "vote": "si",
+        "province": "Badajoz"
+      },
+      {
+        "id": "dep-46",
+        "name": "García Morís, Roberto",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 46,
+        "vote": "si",
+        "province": "Asturias"
+      },
+      {
+        "id": "dep-47",
+        "name": "Garrido Jiménez, Elisa",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 47,
+        "vote": "si",
+        "province": "Rioja (La)"
+      },
+      {
+        "id": "dep-48",
+        "name": "Gil de Reboleño Lastortres, Esther",
+        "group": "G.P. Popular (PP)",
+        "party": "SUMAR",
+        "seatNumber": 48,
+        "vote": "si",
+        "province": "Cádiz"
+      },
+      {
+        "id": "dep-49",
+        "name": "Gil Lázaro, Ignacio",
+        "group": "G.P. Popular (PP)",
+        "party": "VOX",
+        "seatNumber": 49,
+        "vote": "si",
+        "province": "Valencia/València"
+      },
+      {
+        "id": "dep-50",
+        "name": "González Vázquez, Marta",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 50,
+        "vote": "si",
+        "province": "Coruña (A)"
+      },
+      {
+        "id": "dep-51",
+        "name": "Guardiola Salmerón, Mirian",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 51,
+        "vote": "si",
+        "province": "Murcia"
+      },
+      {
+        "id": "dep-52",
+        "name": "Guijarro García, Txema",
+        "group": "G.P. Popular (PP)",
+        "party": "SUMAR",
+        "seatNumber": 52,
+        "vote": "si",
+        "province": "Alicante/Alacant"
+      },
+      {
+        "id": "dep-53",
+        "name": "Guinart Moreno, Lídia",
+        "group": "G.P. Popular (PP)",
+        "party": "PSC-PSOE",
+        "seatNumber": 53,
+        "vote": "si",
+        "province": "Barcelona"
+      },
+      {
+        "id": "dep-54",
+        "name": "Gutiérrez Prieto, Sergio",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 54,
+        "vote": "si",
+        "province": "Toledo"
+      },
+      {
+        "id": "dep-55",
+        "name": "Hernández Quero, Carlos",
+        "group": "G.P. Popular (PP)",
+        "party": "VOX",
+        "seatNumber": 55,
+        "vote": "si",
+        "province": "Málaga"
+      },
+      {
+        "id": "dep-56",
+        "name": "Hernando Fraile, Rafael Antonio",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 56,
+        "vote": "si",
+        "province": "Almería"
+      },
+      {
+        "id": "dep-57",
+        "name": "Herrera García, Milena",
+        "group": "G.P. Popular (PP)",
+        "party": "PSIB-PSOE",
+        "seatNumber": 57,
+        "vote": "si",
+        "province": "Balears (Illes)"
+      },
+      {
+        "id": "dep-58",
+        "name": "Hispán Iglesias de Ussel, Pablo",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 58,
+        "vote": "si",
+        "province": "Granada"
+      },
+      {
+        "id": "dep-59",
+        "name": "Hita Téllez, Guillermo",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 59,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-60",
+        "name": "Hoyo Juliá, Belén",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 60,
+        "vote": "si",
+        "province": "Valencia/València"
+      },
+      {
+        "id": "dep-61",
+        "name": "Ibáñez Hernando, Ángel",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 61,
+        "vote": "si",
+        "province": "Burgos"
+      },
+      {
+        "id": "dep-62",
+        "name": "Ibáñez Mezquita, Alberto",
+        "group": "G.P. Popular (PP)",
+        "party": "SUMAR",
+        "seatNumber": 62,
+        "vote": "si",
+        "province": "Valencia/València"
+      },
+      {
+        "id": "dep-63",
+        "name": "Jordà i Roura, Teresa",
+        "group": "G.P. Popular (PP)",
+        "party": "ERC",
+        "seatNumber": 63,
+        "vote": "si",
+        "province": "Barcelona"
+      },
+      {
+        "id": "dep-64",
+        "name": "Lamuà Estañol, Marc",
+        "group": "G.P. Popular (PP)",
+        "party": "PSC-PSOE",
+        "seatNumber": 64,
+        "vote": "si",
+        "province": "Girona"
+      },
+      {
+        "id": "dep-65",
+        "name": "Leal Fernández, Isaura",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 65,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-66",
+        "name": "Legarda Uriarte, Mikel",
+        "group": "G.P. Popular (PP)",
+        "party": "EAJ-PNV",
+        "seatNumber": 66,
+        "vote": "si",
+        "province": "Araba/Álava"
+      },
+      {
+        "id": "dep-67",
+        "name": "López Álvarez, Patxi",
+        "group": "G.P. Popular (PP)",
+        "party": "PSE-EE (PSOE)",
+        "seatNumber": 67,
+        "vote": "si",
+        "province": "Bizkaia"
+      },
+      {
+        "id": "dep-68",
+        "name": "López Cano, Ignacio",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 68,
+        "vote": "si",
+        "province": "Málaga"
+      },
+      {
+        "id": "dep-69",
+        "name": "López Maraver, Ángel",
+        "group": "G.P. Popular (PP)",
+        "party": "VOX",
+        "seatNumber": 69,
+        "vote": "si",
+        "province": "Guadalajara"
+      },
+      {
+        "id": "dep-70",
+        "name": "Maldonado López, Adriana",
+        "group": "G.P. Popular (PP)",
+        "party": "PSN-PSOE",
+        "seatNumber": 70,
+        "vote": "si",
+        "province": "Navarra"
+      },
+      {
+        "id": "dep-71",
+        "name": "Marí Bosó, José Vicente",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 71,
+        "vote": "si",
+        "province": "Balears (Illes)"
+      },
+      {
+        "id": "dep-72",
+        "name": "Mariscal Anaya, Guillermo",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 72,
+        "vote": "si",
+        "province": "Palmas (Las)"
+      },
+      {
+        "id": "dep-73",
+        "name": "Martín Urriza, Carlos",
+        "group": "G.P. Popular (PP)",
+        "party": "SUMAR",
+        "seatNumber": 73,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-74",
+        "name": "Martínez Barbero, Verónica",
+        "group": "G.P. Popular (PP)",
+        "party": "SUMAR",
+        "seatNumber": 74,
+        "vote": "si",
+        "province": "Pontevedra"
+      },
+      {
+        "id": "dep-75",
+        "name": "Martínez Hierro, Lander",
+        "group": "G.P. Popular (PP)",
+        "party": "SUMAR",
+        "seatNumber": 75,
+        "vote": "si",
+        "province": "Bizkaia"
+      },
+      {
+        "id": "dep-76",
+        "name": "Martínez Ramírez, Carmen",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 76,
+        "vote": "si",
+        "province": "Valencia/València"
+      },
+      {
+        "id": "dep-77",
+        "name": "Martínez Salmerón, Joaquín",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 77,
+        "vote": "si",
+        "province": "Murcia"
+      },
+      {
+        "id": "dep-78",
+        "name": "Martínez Seijo, María Luz",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 78,
+        "vote": "si",
+        "province": "Palencia"
+      },
+      {
+        "id": "dep-79",
+        "name": "Matute García de Jalón, Oskar",
+        "group": "G.P. Popular (PP)",
+        "party": "EH Bildu",
+        "seatNumber": 79,
+        "vote": "si",
+        "province": "Bizkaia"
+      },
+      {
+        "id": "dep-80",
+        "name": "Mellado Sierra, Valle",
+        "group": "G.P. Popular (PP)",
+        "party": "PSC-PSOE",
+        "seatNumber": 80,
+        "vote": "si",
+        "province": "Tarragona"
+      },
+      {
+        "id": "dep-81",
+        "name": "Méndez Monasterio, Lourdes",
+        "group": "G.P. Popular (PP)",
+        "party": "VOX",
+        "seatNumber": 81,
+        "vote": "si",
+        "province": "Murcia"
+      },
+      {
+        "id": "dep-82",
+        "name": "Mínguez García, Montse",
+        "group": "G.P. Popular (PP)",
+        "party": "PSC-PSOE",
+        "seatNumber": 82,
+        "vote": "si",
+        "province": "Lleida"
+      },
+      {
+        "id": "dep-83",
+        "name": "Moneo Díez, María Sandra",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 83,
+        "vote": "si",
+        "province": "Burgos"
+      },
+      {
+        "id": "dep-84",
+        "name": "Montávez Aguillaume, Vicente",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 84,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-85",
+        "name": "Montesinos de Miguel, Macarena",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 85,
+        "vote": "si",
+        "province": "Alicante/Alacant"
+      },
+      {
+        "id": "dep-86",
+        "name": "Muñoz Abrines, Pedro",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 86,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-87",
+        "name": "Muñoz de la Iglesia, Ester",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 87,
+        "vote": "si",
+        "province": "León"
+      },
+      {
+        "id": "dep-88",
+        "name": "Narbona Ruiz, Cristina",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 88,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-89",
+        "name": "Nasarre Oliva, Begoña",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 89,
+        "vote": "si",
+        "province": "Huesca"
+      },
+      {
+        "id": "dep-90",
+        "name": "Navarro Lacoba, Carmen",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 90,
+        "vote": "si",
+        "province": "Albacete"
+      },
+      {
+        "id": "dep-91",
+        "name": "Nogueras i Camero, Míriam",
+        "group": "G.P. Popular (PP)",
+        "party": "JxCAT-JUNTS",
+        "seatNumber": 91,
+        "vote": "si",
+        "province": "Barcelona"
+      },
+      {
+        "id": "dep-92",
+        "name": "Núñez Feijóo, Alberto",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 92,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-93",
+        "name": "Núñez Guijarro, José Enrique",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 93,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-94",
+        "name": "Olano Vela, Jaime Eduardo de",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 94,
+        "vote": "si",
+        "province": "Lugo"
+      },
+      {
+        "id": "dep-95",
+        "name": "Otero Rodríguez, Patricia",
+        "group": "G.P. Popular (PP)",
+        "party": "PsdeG-PSOE",
+        "seatNumber": 95,
+        "vote": "si",
+        "province": "Lugo"
+      },
+      {
+        "id": "dep-96",
+        "name": "Peña Camarero, Esther",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 96,
+        "vote": "si",
+        "province": "Burgos"
+      },
+      {
+        "id": "dep-97",
+        "name": "Perea i Conillas, María Mercè",
+        "group": "G.P. Popular (PP)",
+        "party": "PSC-PSOE",
+        "seatNumber": 97,
+        "vote": "si",
+        "province": "Barcelona"
+      },
+      {
+        "id": "dep-98",
+        "name": "Pérez Coronado, Pablo",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 98,
+        "vote": "si",
+        "province": "Segovia"
+      },
+      {
+        "id": "dep-99",
+        "name": "Pérez López, Álvaro",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 99,
+        "vote": "si",
+        "province": "Coruña (A)"
+      },
+      {
+        "id": "dep-100",
+        "name": "Pisarello Prados, Gerardo",
+        "group": "G.P. Popular (PP)",
+        "party": "SUMAR",
+        "seatNumber": 100,
+        "vote": "si",
+        "province": "Barcelona"
+      },
+      {
+        "id": "dep-101",
+        "name": "Puente Santiago, Óscar",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 101,
+        "vote": "si",
+        "province": "Valladolid"
+      },
+      {
+        "id": "dep-102",
+        "name": "Puy Fraga, Pedro",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 102,
+        "vote": "si",
+        "province": "Pontevedra"
+      },
+      {
+        "id": "dep-103",
+        "name": "Ramírez Carner, Arnau",
+        "group": "G.P. Popular (PP)",
+        "party": "PSC-PSOE",
+        "seatNumber": 103,
+        "vote": "si",
+        "province": "Barcelona"
+      },
+      {
+        "id": "dep-104",
+        "name": "Ramírez Moreno, María de las Nieves",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 104,
+        "vote": "si",
+        "province": "Málaga"
+      },
+      {
+        "id": "dep-105",
+        "name": "Ramos Esteban, César Joaquín",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 105,
+        "vote": "si",
+        "province": "Cáceres"
+      },
+      {
+        "id": "dep-106",
+        "name": "Rego Candamil, Néstor",
+        "group": "G.P. Popular (PP)",
+        "party": "BNG",
+        "seatNumber": 106,
+        "vote": "si",
+        "province": "Coruña (A)"
+      },
+      {
+        "id": "dep-107",
+        "name": "Rodríguez Calleja, Patricia",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 107,
+        "vote": "si",
+        "province": "Ávila"
+      },
+      {
+        "id": "dep-108",
+        "name": "Rodríguez de Millán Parro, María José",
+        "group": "G.P. Popular (PP)",
+        "party": "VOX",
+        "seatNumber": 108,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-109",
+        "name": "Rodríguez Gómez de Celis, Alfonso",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 109,
+        "vote": "si",
+        "province": "Sevilla"
+      },
+      {
+        "id": "dep-110",
+        "name": "Rodríguez Salas, José Antonio",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 110,
+        "vote": "si",
+        "province": "Granada"
+      },
+      {
+        "id": "dep-111",
+        "name": "Rojas García, Carlos",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 111,
+        "vote": "si",
+        "province": "Granada"
+      },
+      {
+        "id": "dep-112",
+        "name": "Román Jasanada, Antonio",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 112,
+        "vote": "si",
+        "province": "Guadalajara"
+      },
+      {
+        "id": "dep-113",
+        "name": "Romero Pozo, Rafaela",
+        "group": "G.P. Popular (PP)",
+        "party": "PSE-EE (PSOE)",
+        "seatNumber": 113,
+        "vote": "si",
+        "province": "Gipuzkoa"
+      },
+      {
+        "id": "dep-114",
+        "name": "Romero Vilches, María de los Reyes",
+        "group": "G.P. Popular (PP)",
+        "party": "VOX",
+        "seatNumber": 114,
+        "vote": "si",
+        "province": "Sevilla"
+      },
+      {
+        "id": "dep-115",
+        "name": "Ros Martínez, Susana",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 115,
+        "vote": "si",
+        "province": "Castellón/Castelló"
+      },
+      {
+        "id": "dep-116",
+        "name": "Rufián Romero, Gabriel",
+        "group": "G.P. Popular (PP)",
+        "party": "ERC",
+        "seatNumber": 116,
+        "vote": "si",
+        "province": "Barcelona"
+      },
+      {
+        "id": "dep-117",
+        "name": "Ruiz Boix, Juan Carlos",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 117,
+        "vote": "si",
+        "province": "Cádiz"
+      },
+      {
+        "id": "dep-118",
+        "name": "Sahuquillo García, Luis Carlos",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 118,
+        "vote": "si",
+        "province": "Cuenca"
+      },
+      {
+        "id": "dep-119",
+        "name": "Sánchez García, José María",
+        "group": "G.P. Popular (PP)",
+        "party": "VOX",
+        "seatNumber": 119,
+        "vote": "si",
+        "province": "Alicante/Alacant"
+      },
+      {
+        "id": "dep-120",
+        "name": "Sánchez Sierra, María del Mar",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 120,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-121",
+        "name": "Sánchez Torregrosa, Maribel",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 121,
+        "vote": "si",
+        "province": "Almería"
+      },
+      {
+        "id": "dep-122",
+        "name": "Santiago Romero, Enrique Fernando",
+        "group": "G.P. Popular (PP)",
+        "party": "SUMAR",
+        "seatNumber": 122,
+        "vote": "si",
+        "province": "Córdoba"
+      },
+      {
+        "id": "dep-123",
+        "name": "Sayas López, Sergio",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 123,
+        "vote": "si",
+        "province": "Navarra"
+      },
+      {
+        "id": "dep-124",
+        "name": "Sémper Pascual, Borja",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 124,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-125",
+        "name": "Serrano Martínez, Juan Francisco",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 125,
+        "vote": "si",
+        "province": "Jaén"
+      },
+      {
+        "id": "dep-126",
+        "name": "Simancas Simancas, Rafael",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 126,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-127",
+        "name": "Soler Mur, Alejandro",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 127,
+        "vote": "si",
+        "province": "Alicante/Alacant"
+      },
+      {
+        "id": "dep-128",
+        "name": "Tellado Filgueira, Miguel",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 128,
+        "vote": "si",
+        "province": "Coruña (A)"
+      },
+      {
+        "id": "dep-129",
+        "name": "Teniente Sánchez, Cristina",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 129,
+        "vote": "si",
+        "province": "Cáceres"
+      },
+      {
+        "id": "dep-130",
+        "name": "Valero Morales, Juan Antonio",
+        "group": "G.P. Popular (PP)",
+        "party": "SUMAR",
+        "seatNumber": 130,
+        "vote": "si",
+        "province": "Málaga"
+      },
+      {
+        "id": "dep-131",
+        "name": "Vaquero Montero, Maribel",
+        "group": "G.P. Popular (PP)",
+        "party": "EAJ-PNV",
+        "seatNumber": 131,
+        "vote": "si",
+        "province": "Gipuzkoa"
+      },
+      {
+        "id": "dep-132",
+        "name": "Varela Pazos, Marta",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 132,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-133",
+        "name": "Vázquez Blanco, Ana Belén",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 133,
+        "vote": "si",
+        "province": "Ourense"
+      },
+      {
+        "id": "dep-134",
+        "name": "Velasco Morillo, Elvira",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 134,
+        "vote": "si",
+        "province": "Zamora"
+      },
+      {
+        "id": "dep-135",
+        "name": "Vidal Matas, Vicenç",
+        "group": "G.P. Popular (PP)",
+        "party": "SUMAR",
+        "seatNumber": 135,
+        "vote": "si",
+        "province": "Balears (Illes)"
+      },
+      {
+        "id": "dep-136",
+        "name": "Vidal Sáez, Aina",
+        "group": "G.P. Popular (PP)",
+        "party": "SUMAR",
+        "seatNumber": 136,
+        "vote": "si",
+        "province": "Barcelona"
+      },
+      {
+        "id": "dep-137",
+        "name": "Zaragoza Alonso, José",
+        "group": "G.P. Popular (PP)",
+        "party": "PSC-PSOE",
+        "seatNumber": 137,
+        "vote": "si",
+        "province": "Barcelona"
+      },
+      {
+        "id": "dep-138",
+        "name": "Diputado/a Escaño 138",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 138,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-139",
+        "name": "Diputado/a Escaño 139",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 139,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-140",
+        "name": "Diputado/a Escaño 140",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 140,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-141",
+        "name": "Diputado/a Escaño 141",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 141,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-142",
+        "name": "Diputado/a Escaño 142",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 142,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-143",
+        "name": "Diputado/a Escaño 143",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 143,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-144",
+        "name": "Diputado/a Escaño 144",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 144,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-145",
+        "name": "Diputado/a Escaño 145",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 145,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-146",
+        "name": "Diputado/a Escaño 146",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 146,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-147",
+        "name": "Diputado/a Escaño 147",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 147,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-148",
+        "name": "Diputado/a Escaño 148",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 148,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-149",
+        "name": "Diputado/a Escaño 149",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 149,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-150",
+        "name": "Diputado/a Escaño 150",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 150,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-151",
+        "name": "Diputado/a Escaño 151",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 151,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-152",
+        "name": "Diputado/a Escaño 152",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 152,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-153",
+        "name": "Diputado/a Escaño 153",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 153,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-154",
+        "name": "Diputado/a Escaño 154",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 154,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-155",
+        "name": "Diputado/a Escaño 155",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 155,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-156",
+        "name": "Diputado/a Escaño 156",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 156,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-157",
+        "name": "Diputado/a Escaño 157",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 157,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-158",
+        "name": "Diputado/a Escaño 158",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 158,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-159",
+        "name": "Diputado/a Escaño 159",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 159,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-160",
+        "name": "Diputado/a Escaño 160",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 160,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-161",
+        "name": "Diputado/a Escaño 161",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 161,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-162",
+        "name": "Diputado/a Escaño 162",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 162,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-163",
+        "name": "Diputado/a Escaño 163",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 163,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-164",
+        "name": "Diputado/a Escaño 164",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 164,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-165",
+        "name": "Diputado/a Escaño 165",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 165,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-166",
+        "name": "Diputado/a Escaño 166",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 166,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-167",
+        "name": "Diputado/a Escaño 167",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 167,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-168",
+        "name": "Diputado/a Escaño 168",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 168,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-169",
+        "name": "Diputado/a Escaño 169",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 169,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-170",
+        "name": "Diputado/a Escaño 170",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 170,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-171",
+        "name": "Diputado/a Escaño 171",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 171,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-172",
+        "name": "Diputado/a Escaño 172",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 172,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-173",
+        "name": "Diputado/a Escaño 173",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 173,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-174",
+        "name": "Diputado/a Escaño 174",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 174,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-175",
+        "name": "Diputado/a Escaño 175",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 175,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-176",
+        "name": "Diputado/a Escaño 176",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 176,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-177",
+        "name": "Diputado/a Escaño 177",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 177,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-178",
+        "name": "Diputado/a Escaño 178",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 178,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-179",
+        "name": "Diputado/a Escaño 179",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 179,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-180",
+        "name": "Diputado/a Escaño 180",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 180,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-181",
+        "name": "Diputado/a Escaño 181",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 181,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-182",
+        "name": "Diputado/a Escaño 182",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 182,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-183",
+        "name": "Diputado/a Escaño 183",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 183,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-184",
+        "name": "Diputado/a Escaño 184",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 184,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-185",
+        "name": "Diputado/a Escaño 185",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 185,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-186",
+        "name": "Diputado/a Escaño 186",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 186,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-187",
+        "name": "Diputado/a Escaño 187",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 187,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-188",
+        "name": "Diputado/a Escaño 188",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 188,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-189",
+        "name": "Diputado/a Escaño 189",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 189,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-190",
+        "name": "Diputado/a Escaño 190",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 190,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-191",
+        "name": "Diputado/a Escaño 191",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 191,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-192",
+        "name": "Diputado/a Escaño 192",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 192,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-193",
+        "name": "Diputado/a Escaño 193",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 193,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-194",
+        "name": "Diputado/a Escaño 194",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 194,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-195",
+        "name": "Diputado/a Escaño 195",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 195,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-196",
+        "name": "Diputado/a Escaño 196",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 196,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-197",
+        "name": "Diputado/a Escaño 197",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 197,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-198",
+        "name": "Diputado/a Escaño 198",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 198,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-199",
+        "name": "Diputado/a Escaño 199",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 199,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-200",
+        "name": "Diputado/a Escaño 200",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 200,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-201",
+        "name": "Diputado/a Escaño 201",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 201,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-202",
+        "name": "Diputado/a Escaño 202",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 202,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-203",
+        "name": "Diputado/a Escaño 203",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 203,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-204",
+        "name": "Diputado/a Escaño 204",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 204,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-205",
+        "name": "Diputado/a Escaño 205",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 205,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-206",
+        "name": "Diputado/a Escaño 206",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 206,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-207",
+        "name": "Diputado/a Escaño 207",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 207,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-208",
+        "name": "Diputado/a Escaño 208",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 208,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-209",
+        "name": "Diputado/a Escaño 209",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 209,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-210",
+        "name": "Diputado/a Escaño 210",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 210,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-211",
+        "name": "Diputado/a Escaño 211",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 211,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-212",
+        "name": "Diputado/a Escaño 212",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 212,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-213",
+        "name": "Diputado/a Escaño 213",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 213,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-214",
+        "name": "Diputado/a Escaño 214",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 214,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-215",
+        "name": "Diputado/a Escaño 215",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 215,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-216",
+        "name": "Diputado/a Escaño 216",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 216,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-217",
+        "name": "Diputado/a Escaño 217",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 217,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-218",
+        "name": "Diputado/a Escaño 218",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 218,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-219",
+        "name": "Diputado/a Escaño 219",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 219,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-220",
+        "name": "Diputado/a Escaño 220",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 220,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-221",
+        "name": "Diputado/a Escaño 221",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 221,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-222",
+        "name": "Diputado/a Escaño 222",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 222,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-223",
+        "name": "Diputado/a Escaño 223",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 223,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-224",
+        "name": "Diputado/a Escaño 224",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 224,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-225",
+        "name": "Diputado/a Escaño 225",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 225,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-226",
+        "name": "Diputado/a Escaño 226",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 226,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-227",
+        "name": "Diputado/a Escaño 227",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 227,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-228",
+        "name": "Diputado/a Escaño 228",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 228,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-229",
+        "name": "Diputado/a Escaño 229",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 229,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-230",
+        "name": "Diputado/a Escaño 230",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 230,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-231",
+        "name": "Diputado/a Escaño 231",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 231,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-232",
+        "name": "Diputado/a Escaño 232",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 232,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-233",
+        "name": "Diputado/a Escaño 233",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 233,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-234",
+        "name": "Diputado/a Escaño 234",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 234,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-235",
+        "name": "Diputado/a Escaño 235",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 235,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-236",
+        "name": "Diputado/a Escaño 236",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 236,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-237",
+        "name": "Diputado/a Escaño 237",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 237,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-238",
+        "name": "Diputado/a Escaño 238",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 238,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-239",
+        "name": "Diputado/a Escaño 239",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 239,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-240",
+        "name": "Diputado/a Escaño 240",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 240,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-241",
+        "name": "Diputado/a Escaño 241",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 241,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-242",
+        "name": "Diputado/a Escaño 242",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 242,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-243",
+        "name": "Diputado/a Escaño 243",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 243,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-244",
+        "name": "Diputado/a Escaño 244",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 244,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-245",
+        "name": "Diputado/a Escaño 245",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 245,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-246",
+        "name": "Diputado/a Escaño 246",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 246,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-247",
+        "name": "Diputado/a Escaño 247",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 247,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-248",
+        "name": "Diputado/a Escaño 248",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 248,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-249",
+        "name": "Diputado/a Escaño 249",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 249,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-250",
+        "name": "Diputado/a Escaño 250",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 250,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-251",
+        "name": "Diputado/a Escaño 251",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 251,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-252",
+        "name": "Diputado/a Escaño 252",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 252,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-253",
+        "name": "Diputado/a Escaño 253",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 253,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-254",
+        "name": "Diputado/a Escaño 254",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 254,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-255",
+        "name": "Diputado/a Escaño 255",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 255,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-256",
+        "name": "Diputado/a Escaño 256",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 256,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-257",
+        "name": "Diputado/a Escaño 257",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 257,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-258",
+        "name": "Diputado/a Escaño 258",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 258,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-259",
+        "name": "Diputado/a Escaño 259",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 259,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-260",
+        "name": "Diputado/a Escaño 260",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 260,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-261",
+        "name": "Diputado/a Escaño 261",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 261,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-262",
+        "name": "Diputado/a Escaño 262",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 262,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-263",
+        "name": "Diputado/a Escaño 263",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 263,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-264",
+        "name": "Diputado/a Escaño 264",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 264,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-265",
+        "name": "Diputado/a Escaño 265",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 265,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-266",
+        "name": "Diputado/a Escaño 266",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 266,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-267",
+        "name": "Diputado/a Escaño 267",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 267,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-268",
+        "name": "Diputado/a Escaño 268",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 268,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-269",
+        "name": "Diputado/a Escaño 269",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 269,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-270",
+        "name": "Diputado/a Escaño 270",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 270,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-271",
+        "name": "Diputado/a Escaño 271",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 271,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-272",
+        "name": "Diputado/a Escaño 272",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 272,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-273",
+        "name": "Diputado/a Escaño 273",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 273,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-274",
+        "name": "Diputado/a Escaño 274",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 274,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-275",
+        "name": "Diputado/a Escaño 275",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 275,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-276",
+        "name": "Diputado/a Escaño 276",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 276,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-277",
+        "name": "Diputado/a Escaño 277",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 277,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-278",
+        "name": "Diputado/a Escaño 278",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 278,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-279",
+        "name": "Diputado/a Escaño 279",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 279,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-280",
+        "name": "Diputado/a Escaño 280",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 280,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-281",
+        "name": "Diputado/a Escaño 281",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 281,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-282",
+        "name": "Diputado/a Escaño 282",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 282,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-283",
+        "name": "Diputado/a Escaño 283",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 283,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-284",
+        "name": "Diputado/a Escaño 284",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 284,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-285",
+        "name": "Diputado/a Escaño 285",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 285,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-286",
+        "name": "Diputado/a Escaño 286",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 286,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-287",
+        "name": "Diputado/a Escaño 287",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 287,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-288",
+        "name": "Diputado/a Escaño 288",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 288,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-289",
+        "name": "Diputado/a Escaño 289",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 289,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-290",
+        "name": "Diputado/a Escaño 290",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 290,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-291",
+        "name": "Diputado/a Escaño 291",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 291,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-292",
+        "name": "Diputado/a Escaño 292",
+        "group": "G.P. Plurinacional Sumar",
+        "party": "Plurinacional",
+        "seatNumber": 292,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-293",
+        "name": "Diputado/a Escaño 293",
+        "group": "G.P. Plurinacional Sumar",
+        "party": "Plurinacional",
+        "seatNumber": 293,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-294",
+        "name": "Diputado/a Escaño 294",
+        "group": "G.P. Plurinacional Sumar",
+        "party": "Plurinacional",
+        "seatNumber": 294,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-295",
+        "name": "Diputado/a Escaño 295",
+        "group": "G.P. Plurinacional Sumar",
+        "party": "Plurinacional",
+        "seatNumber": 295,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-296",
+        "name": "Diputado/a Escaño 296",
+        "group": "G.P. Plurinacional Sumar",
+        "party": "Plurinacional",
+        "seatNumber": 296,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-297",
+        "name": "Diputado/a Escaño 297",
+        "group": "G.P. Plurinacional Sumar",
+        "party": "Plurinacional",
+        "seatNumber": 297,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-298",
+        "name": "Diputado/a Escaño 298",
+        "group": "G.P. Plurinacional Sumar",
+        "party": "Plurinacional",
+        "seatNumber": 298,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-299",
+        "name": "Diputado/a Escaño 299",
+        "group": "G.P. Plurinacional Sumar",
+        "party": "Plurinacional",
+        "seatNumber": 299,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-300",
+        "name": "Diputado/a Escaño 300",
+        "group": "G.P. Plurinacional Sumar",
+        "party": "Plurinacional",
+        "seatNumber": 300,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-301",
+        "name": "Diputado/a Escaño 301",
+        "group": "G.P. Plurinacional Sumar",
+        "party": "Plurinacional",
+        "seatNumber": 301,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-302",
+        "name": "Diputado/a Escaño 302",
+        "group": "G.P. Plurinacional Sumar",
+        "party": "Plurinacional",
+        "seatNumber": 302,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-303",
+        "name": "Diputado/a Escaño 303",
+        "group": "G.P. Plurinacional Sumar",
+        "party": "Plurinacional",
+        "seatNumber": 303,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-304",
+        "name": "Diputado/a Escaño 304",
+        "group": "G.P. Plurinacional Sumar",
+        "party": "Plurinacional",
+        "seatNumber": 304,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-305",
+        "name": "Diputado/a Escaño 305",
+        "group": "G.P. Plurinacional Sumar",
+        "party": "Plurinacional",
+        "seatNumber": 305,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-306",
+        "name": "Diputado/a Escaño 306",
+        "group": "G.P. Plurinacional Sumar",
+        "party": "Plurinacional",
+        "seatNumber": 306,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-307",
+        "name": "Diputado/a Escaño 307",
+        "group": "G.P. Plurinacional Sumar",
+        "party": "Plurinacional",
+        "seatNumber": 307,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-308",
+        "name": "Diputado/a Escaño 308",
+        "group": "G.P. Plurinacional Sumar",
+        "party": "Plurinacional",
+        "seatNumber": 308,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-309",
+        "name": "Diputado/a Escaño 309",
+        "group": "G.P. Plurinacional Sumar",
+        "party": "Plurinacional",
+        "seatNumber": 309,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-310",
+        "name": "Diputado/a Escaño 310",
+        "group": "G.P. Plurinacional Sumar",
+        "party": "Plurinacional",
+        "seatNumber": 310,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-311",
+        "name": "Diputado/a Escaño 311",
+        "group": "G.P. Plurinacional Sumar",
+        "party": "Plurinacional",
+        "seatNumber": 311,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-312",
+        "name": "Diputado/a Escaño 312",
+        "group": "G.P. Plurinacional Sumar",
+        "party": "Plurinacional",
+        "seatNumber": 312,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-313",
+        "name": "Diputado/a Escaño 313",
+        "group": "G.P. Plurinacional Sumar",
+        "party": "Plurinacional",
+        "seatNumber": 313,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-314",
+        "name": "Diputado/a Escaño 314",
+        "group": "G.P. Plurinacional Sumar",
+        "party": "Plurinacional",
+        "seatNumber": 314,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-315",
+        "name": "Diputado/a Escaño 315",
+        "group": "G.P. Plurinacional Sumar",
+        "party": "Plurinacional",
+        "seatNumber": 315,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-316",
+        "name": "Diputado/a Escaño 316",
+        "group": "G.P. Plurinacional Sumar",
+        "party": "Plurinacional",
+        "seatNumber": 316,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-317",
+        "name": "Diputado/a Escaño 317",
+        "group": "G.P. Plurinacional Sumar",
+        "party": "Plurinacional",
+        "seatNumber": 317,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-318",
+        "name": "Diputado/a Escaño 318",
+        "group": "G.P. Plurinacional Sumar",
+        "party": "Plurinacional",
+        "seatNumber": 318,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-319",
+        "name": "Diputado/a Escaño 319",
+        "group": "G.P. Republicano (ERC)",
+        "party": "Republicano",
+        "seatNumber": 319,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-320",
+        "name": "Diputado/a Escaño 320",
+        "group": "G.P. Republicano (ERC)",
+        "party": "Republicano",
+        "seatNumber": 320,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-321",
+        "name": "Diputado/a Escaño 321",
+        "group": "G.P. Republicano (ERC)",
+        "party": "Republicano",
+        "seatNumber": 321,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-322",
+        "name": "Diputado/a Escaño 322",
+        "group": "G.P. Republicano (ERC)",
+        "party": "Republicano",
+        "seatNumber": 322,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-323",
+        "name": "Diputado/a Escaño 323",
+        "group": "G.P. Republicano (ERC)",
+        "party": "Republicano",
+        "seatNumber": 323,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-324",
+        "name": "Diputado/a Escaño 324",
+        "group": "G.P. Republicano (ERC)",
+        "party": "Republicano",
+        "seatNumber": 324,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-325",
+        "name": "Diputado/a Escaño 325",
+        "group": "G.P. Republicano (ERC)",
+        "party": "Republicano",
+        "seatNumber": 325,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-326",
+        "name": "Diputado/a Escaño 326",
+        "group": "G.P. Junts per Catalunya",
+        "party": "Junts",
+        "seatNumber": 326,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-327",
+        "name": "Diputado/a Escaño 327",
+        "group": "G.P. Junts per Catalunya",
+        "party": "Junts",
+        "seatNumber": 327,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-328",
+        "name": "Diputado/a Escaño 328",
+        "group": "G.P. Junts per Catalunya",
+        "party": "Junts",
+        "seatNumber": 328,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-329",
+        "name": "Diputado/a Escaño 329",
+        "group": "G.P. Junts per Catalunya",
+        "party": "Junts",
+        "seatNumber": 329,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-330",
+        "name": "Diputado/a Escaño 330",
+        "group": "G.P. Junts per Catalunya",
+        "party": "Junts",
+        "seatNumber": 330,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-331",
+        "name": "Diputado/a Escaño 331",
+        "group": "G.P. Junts per Catalunya",
+        "party": "Junts",
+        "seatNumber": 331,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-332",
+        "name": "Diputado/a Escaño 332",
+        "group": "G.P. Junts per Catalunya",
+        "party": "Junts",
+        "seatNumber": 332,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-333",
+        "name": "Diputado/a Escaño 333",
+        "group": "G.P. Euskal Herria Bildu",
+        "party": "Euskal",
+        "seatNumber": 333,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-334",
+        "name": "Diputado/a Escaño 334",
+        "group": "G.P. Euskal Herria Bildu",
+        "party": "Euskal",
+        "seatNumber": 334,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-335",
+        "name": "Diputado/a Escaño 335",
+        "group": "G.P. Euskal Herria Bildu",
+        "party": "Euskal",
+        "seatNumber": 335,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-336",
+        "name": "Diputado/a Escaño 336",
+        "group": "G.P. Euskal Herria Bildu",
+        "party": "Euskal",
+        "seatNumber": 336,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-337",
+        "name": "Diputado/a Escaño 337",
+        "group": "G.P. Euskal Herria Bildu",
+        "party": "Euskal",
+        "seatNumber": 337,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-338",
+        "name": "Diputado/a Escaño 338",
+        "group": "G.P. Euskal Herria Bildu",
+        "party": "Euskal",
+        "seatNumber": 338,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-339",
+        "name": "Diputado/a Escaño 339",
+        "group": "G.P. Vasco (EAJ-PNV)",
+        "party": "Vasco",
+        "seatNumber": 339,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-340",
+        "name": "Diputado/a Escaño 340",
+        "group": "G.P. Vasco (EAJ-PNV)",
+        "party": "Vasco",
+        "seatNumber": 340,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-341",
+        "name": "Diputado/a Escaño 341",
+        "group": "G.P. Vasco (EAJ-PNV)",
+        "party": "Vasco",
+        "seatNumber": 341,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-342",
+        "name": "Diputado/a Escaño 342",
+        "group": "G.P. Vasco (EAJ-PNV)",
+        "party": "Vasco",
+        "seatNumber": 342,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-343",
+        "name": "Diputado/a Escaño 343",
+        "group": "G.P. Vasco (EAJ-PNV)",
+        "party": "Vasco",
+        "seatNumber": 343,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-344",
+        "name": "Diputado/a Escaño 344",
+        "group": "G.P. Mixto (Podemos/BNG/CC/UPN)",
+        "party": "Mixto",
+        "seatNumber": 344,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-345",
+        "name": "Diputado/a Escaño 345",
+        "group": "G.P. Mixto (Podemos/BNG/CC/UPN)",
+        "party": "Mixto",
+        "seatNumber": 345,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-346",
+        "name": "Diputado/a Escaño 346",
+        "group": "G.P. Mixto (Podemos/BNG/CC/UPN)",
+        "party": "Mixto",
+        "seatNumber": 346,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-347",
+        "name": "Diputado/a Escaño 347",
+        "group": "G.P. Mixto (Podemos/BNG/CC/UPN)",
+        "party": "Mixto",
+        "seatNumber": 347,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-348",
+        "name": "Diputado/a Escaño 348",
+        "group": "G.P. Mixto (Podemos/BNG/CC/UPN)",
+        "party": "Mixto",
+        "seatNumber": 348,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-349",
+        "name": "Diputado/a Escaño 349",
+        "group": "G.P. Mixto (Podemos/BNG/CC/UPN)",
+        "party": "Mixto",
+        "seatNumber": 349,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-350",
+        "name": "Diputado/a Escaño 350",
+        "group": "G.P. Mixto (Podemos/BNG/CC/UPN)",
+        "party": "Mixto",
+        "seatNumber": 350,
+        "vote": "no",
+        "province": "Madrid"
+      }
+    ],
+    "bocgUrl": "https://www.congreso.es/datos-abiertos",
+    "expedienteNumber": "130/000055"
+  },
+  {
+    "id": "congreso-2026-10-02-2",
+    "title": "El Gobierno aprueba medidas urgentes para prorrogar los alquileres de vivienda habitual",
+    "officialTitle": "Real Decreto-ley 27/2026, de 29 de septiembre, por el que se adoptan medidas urgentes para reforzar la estabilidad de los contratos de arrendamiento de vivienda habitual. (Pública por llamamiento)",
+    "chamber": "congreso",
+    "date": "2026-10-02",
+    "time": "18:00",
+    "type": "real_decreto_ley",
+    "status": "rechazado",
+    "category": "Vivienda",
+    "summary": "El Congreso valida la prórroga extraordinaria de los contratos de alquiler vencidos para proteger a los inquilinos frente a subidas abusivas. La norma busca garantizar la estabilidad residencial en un contexto de precios al alza en el mercado inmobiliario.",
+    "isOmnibus": true,
+    "measures": [
+      {
+        "id": "congreso-2026-10-02-2-m1",
+        "title": "Prórroga extraordinaria obligatoria de tres años para contratos de alquiler",
+        "category": "Contratos",
+        "plainDescription": "Los inquilinos cuyo contrato finalice podrán acogerse a una extensión de hasta tres años manteniendo las condiciones actuales y limitando la subida del precio de la renta.",
+        "whoIsAffected": [
+          "Inquilinos de vivienda habitual",
+          "Propietarios y arrendadores"
+        ],
+        "realWorldExample": "María paga 800 euros de alquiler y su contrato vence este mes; gracias a la norma, podrá extenderlo 3 años más pagando un máximo de 824 euros tras aplicar la actualización tope, evitando que el propietario suba la renta a 1.100 euros.",
+        "argumentsPro": [
+          "Protege a los hogares ante incrementos inasumibles de la renta en un mercado tensionado",
+          "Aporta estabilidad residencial impidiendo la no renovación injustificada de contratos"
+        ],
+        "argumentsContra": [
+          "Resta flexibilidad a los propietarios para disponer libremente de sus inmuebles",
+          "Podría incentivar el trasvase de viviendas hacia el alquiler turístico o de temporada"
+        ]
+      }
+    ],
+    "votesSummary": {
+      "si": 166,
+      "no": 184,
+      "abstencion": 0,
+      "noVota": 0,
+      "total": 350
+    },
+    "groupVotes": [
+      {
+        "groupName": "G.P. Popular (PP)",
+        "totalSeats": 137,
+        "si": 137,
+        "no": 0,
+        "abstencion": 0,
+        "noVota": 0,
+        "color": "#0ea5e9"
+      },
+      {
+        "groupName": "G.P. Socialista (PSOE)",
+        "totalSeats": 121,
+        "si": 29,
+        "no": 92,
+        "abstencion": 0,
+        "noVota": 0,
+        "color": "#ef4444"
+      },
+      {
+        "groupName": "G.P. VOX",
+        "totalSeats": 33,
+        "si": 0,
+        "no": 33,
+        "abstencion": 0,
+        "noVota": 0,
+        "color": "#22c55e"
+      },
+      {
+        "groupName": "G.P. Plurinacional Sumar",
+        "totalSeats": 27,
+        "si": 0,
+        "no": 27,
+        "abstencion": 0,
+        "noVota": 0,
+        "color": "#ec4899"
+      },
+      {
+        "groupName": "G.P. Republicano (ERC)",
+        "totalSeats": 7,
+        "si": 0,
+        "no": 7,
+        "abstencion": 0,
+        "noVota": 0,
+        "color": "#f59e0b"
+      },
+      {
+        "groupName": "G.P. Junts per Catalunya",
+        "totalSeats": 7,
+        "si": 0,
+        "no": 7,
+        "abstencion": 0,
+        "noVota": 0,
+        "color": "#06b6d4"
+      },
+      {
+        "groupName": "G.P. Euskal Herria Bildu",
+        "totalSeats": 6,
+        "si": 0,
+        "no": 6,
+        "abstencion": 0,
+        "noVota": 0,
+        "color": "#84cc16"
+      },
+      {
+        "groupName": "G.P. Vasco (EAJ-PNV)",
+        "totalSeats": 5,
+        "si": 0,
+        "no": 5,
+        "abstencion": 0,
+        "noVota": 0,
+        "color": "#10b981"
+      },
+      {
+        "groupName": "G.P. Mixto (Podemos/BNG/CC/UPN)",
+        "totalSeats": 7,
+        "si": 0,
+        "no": 7,
+        "abstencion": 0,
+        "noVota": 0,
+        "color": "#8b5cf6"
+      }
+    ],
+    "deputies": [
+      {
+        "id": "dep-1",
+        "name": "Abascal Conde, Santiago",
+        "group": "G.P. Popular (PP)",
+        "party": "VOX",
+        "seatNumber": 1,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-2",
+        "name": "Acedo Reyes, Sofía",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 2,
+        "vote": "si",
+        "province": "Melilla"
+      },
+      {
+        "id": "dep-3",
+        "name": "Aizcorbe Torra, Juan José",
+        "group": "G.P. Popular (PP)",
+        "party": "VOX",
+        "seatNumber": 3,
+        "vote": "si",
+        "province": "Barcelona"
+      },
+      {
+        "id": "dep-4",
+        "name": "Aizpurua Arzallus, Mertxe",
+        "group": "G.P. Popular (PP)",
+        "party": "EH Bildu",
+        "seatNumber": 4,
+        "vote": "si",
+        "province": "Gipuzkoa"
+      },
+      {
+        "id": "dep-5",
+        "name": "Alfonso Cendón, Javier",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 5,
+        "vote": "si",
+        "province": "León"
+      },
+      {
+        "id": "dep-6",
+        "name": "Alós López, Ana Isabel",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 6,
+        "vote": "si",
+        "province": "Huesca"
+      },
+      {
+        "id": "dep-7",
+        "name": "Álvarez de Toledo Peralta-Ramos, Cayetana",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 7,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-8",
+        "name": "Álvarez Fanjul, Beatriz",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 8,
+        "vote": "si",
+        "province": "Bizkaia"
+      },
+      {
+        "id": "dep-9",
+        "name": "Andala Ubbi, Teslem",
+        "group": "G.P. Popular (PP)",
+        "party": "SUMAR",
+        "seatNumber": 9,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-10",
+        "name": "Aragonés Mendiguchía, Carlos",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 10,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-11",
+        "name": "Aranda Vargas, Francisco",
+        "group": "G.P. Popular (PP)",
+        "party": "PSC-PSOE",
+        "seatNumber": 11,
+        "vote": "si",
+        "province": "Barcelona"
+      },
+      {
+        "id": "dep-12",
+        "name": "Argüelles García, Silverio",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 12,
+        "vote": "si",
+        "province": "Asturias"
+      },
+      {
+        "id": "dep-13",
+        "name": "Armengol Socias, Francina",
+        "group": "G.P. Popular (PP)",
+        "party": "PSIB-PSOE",
+        "seatNumber": 13,
+        "vote": "si",
+        "province": "Balears (Illes)"
+      },
+      {
+        "id": "dep-14",
+        "name": "Arribas Maroto, Manuel",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 14,
+        "vote": "si",
+        "province": "Ávila"
+      },
+      {
+        "id": "dep-15",
+        "name": "Belarra Urteaga, Ione",
+        "group": "G.P. Popular (PP)",
+        "party": "SUMAR",
+        "seatNumber": 15,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-16",
+        "name": "Bendodo Benasayag, Elías",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 16,
+        "vote": "si",
+        "province": "Málaga"
+      },
+      {
+        "id": "dep-17",
+        "name": "Bermúdez de Castro Fernández, José Antonio",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 17,
+        "vote": "si",
+        "province": "Salamanca"
+      },
+      {
+        "id": "dep-18",
+        "name": "Blanquer Alcaraz, Patricia",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 18,
+        "vote": "si",
+        "province": "Alicante/Alacant"
+      },
+      {
+        "id": "dep-19",
+        "name": "Bravo Baena, Juan",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 19,
+        "vote": "si",
+        "province": "Sevilla"
+      },
+      {
+        "id": "dep-20",
+        "name": "Cabezón Casas, Tomás",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 20,
+        "vote": "si",
+        "province": "Soria"
+      },
+      {
+        "id": "dep-21",
+        "name": "Carazo Hermoso, Eduardo",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 21,
+        "vote": "si",
+        "province": "Valladolid"
+      },
+      {
+        "id": "dep-22",
+        "name": "Castilla Álvarez, María Carmen",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 22,
+        "vote": "si",
+        "province": "Sevilla"
+      },
+      {
+        "id": "dep-23",
+        "name": "Chamorro Delmo, Ricardo",
+        "group": "G.P. Popular (PP)",
+        "party": "VOX",
+        "seatNumber": 23,
+        "vote": "si",
+        "province": "Ciudad Real"
+      },
+      {
+        "id": "dep-24",
+        "name": "Clavell López, Óscar",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 24,
+        "vote": "si",
+        "province": "Castellón/Castelló"
+      },
+      {
+        "id": "dep-25",
+        "name": "Cobo Vega, Manuel",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 25,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-26",
+        "name": "Conde López, Francisco José",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 26,
+        "vote": "si",
+        "province": "Lugo"
+      },
+      {
+        "id": "dep-27",
+        "name": "Corujo Berriel, María Dolores",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 27,
+        "vote": "si",
+        "province": "Palmas (Las)"
+      },
+      {
+        "id": "dep-28",
+        "name": "Crespín Rubio, Rafaela",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 28,
+        "vote": "si",
+        "province": "Córdoba"
+      },
+      {
+        "id": "dep-29",
+        "name": "Cruset Domènech, Josep Maria",
+        "group": "G.P. Popular (PP)",
+        "party": "JxCAT-JUNTS",
+        "seatNumber": 29,
+        "vote": "si",
+        "province": "Tarragona"
+      },
+      {
+        "id": "dep-30",
+        "name": "Cruz-Guzmán García, María Soledad",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 30,
+        "vote": "si",
+        "province": "Sevilla"
+      },
+      {
+        "id": "dep-31",
+        "name": "De las Cuevas Cortés, Félix",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 31,
+        "vote": "si",
+        "province": "Cantabria"
+      },
+      {
+        "id": "dep-32",
+        "name": "De los Santos González, Jaime Miguel",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 32,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-33",
+        "name": "De Meer Méndez, Rocío",
+        "group": "G.P. Popular (PP)",
+        "party": "VOX",
+        "seatNumber": 33,
+        "vote": "si",
+        "province": "Almería"
+      },
+      {
+        "id": "dep-34",
+        "name": "De Rosa Torner, Fernando",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 34,
+        "vote": "si",
+        "province": "Valencia/València"
+      },
+      {
+        "id": "dep-35",
+        "name": "Diouf Dioh, Luc Andre",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 35,
+        "vote": "si",
+        "province": "Palmas (Las)"
+      },
+      {
+        "id": "dep-36",
+        "name": "Fabra Part, Alberto",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 36,
+        "vote": "si",
+        "province": "Castellón/Castelló"
+      },
+      {
+        "id": "dep-37",
+        "name": "Fagúndez Campo, Antidio",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 37,
+        "vote": "si",
+        "province": "Zamora"
+      },
+      {
+        "id": "dep-38",
+        "name": "Faneca López, María Luisa",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 38,
+        "vote": "si",
+        "province": "Huelva"
+      },
+      {
+        "id": "dep-39",
+        "name": "Fernández Benéitez, Andrea",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 39,
+        "vote": "si",
+        "province": "León"
+      },
+      {
+        "id": "dep-40",
+        "name": "Fernández González, María Mercedes",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 40,
+        "vote": "si",
+        "province": "Asturias"
+      },
+      {
+        "id": "dep-41",
+        "name": "Figaredo Álvarez-Sala, José María",
+        "group": "G.P. Popular (PP)",
+        "party": "VOX",
+        "seatNumber": 41,
+        "vote": "si",
+        "province": "Asturias"
+      },
+      {
+        "id": "dep-42",
+        "name": "Floriano Corrales, Carlos Javier",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 42,
+        "vote": "si",
+        "province": "Cáceres"
+      },
+      {
+        "id": "dep-43",
+        "name": "Fúnez de Gregorio, Carmen",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 43,
+        "vote": "si",
+        "province": "Ciudad Real"
+      },
+      {
+        "id": "dep-44",
+        "name": "Gamarra Ruiz-Clavijo, Concepción",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 44,
+        "vote": "si",
+        "province": "Rioja (La)"
+      },
+      {
+        "id": "dep-45",
+        "name": "García López, Maribel",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 45,
+        "vote": "si",
+        "province": "Badajoz"
+      },
+      {
+        "id": "dep-46",
+        "name": "García Morís, Roberto",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 46,
+        "vote": "si",
+        "province": "Asturias"
+      },
+      {
+        "id": "dep-47",
+        "name": "Garrido Jiménez, Elisa",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 47,
+        "vote": "si",
+        "province": "Rioja (La)"
+      },
+      {
+        "id": "dep-48",
+        "name": "Gil de Reboleño Lastortres, Esther",
+        "group": "G.P. Popular (PP)",
+        "party": "SUMAR",
+        "seatNumber": 48,
+        "vote": "si",
+        "province": "Cádiz"
+      },
+      {
+        "id": "dep-49",
+        "name": "Gil Lázaro, Ignacio",
+        "group": "G.P. Popular (PP)",
+        "party": "VOX",
+        "seatNumber": 49,
+        "vote": "si",
+        "province": "Valencia/València"
+      },
+      {
+        "id": "dep-50",
+        "name": "González Vázquez, Marta",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 50,
+        "vote": "si",
+        "province": "Coruña (A)"
+      },
+      {
+        "id": "dep-51",
+        "name": "Guardiola Salmerón, Mirian",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 51,
+        "vote": "si",
+        "province": "Murcia"
+      },
+      {
+        "id": "dep-52",
+        "name": "Guijarro García, Txema",
+        "group": "G.P. Popular (PP)",
+        "party": "SUMAR",
+        "seatNumber": 52,
+        "vote": "si",
+        "province": "Alicante/Alacant"
+      },
+      {
+        "id": "dep-53",
+        "name": "Guinart Moreno, Lídia",
+        "group": "G.P. Popular (PP)",
+        "party": "PSC-PSOE",
+        "seatNumber": 53,
+        "vote": "si",
+        "province": "Barcelona"
+      },
+      {
+        "id": "dep-54",
+        "name": "Gutiérrez Prieto, Sergio",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 54,
+        "vote": "si",
+        "province": "Toledo"
+      },
+      {
+        "id": "dep-55",
+        "name": "Hernández Quero, Carlos",
+        "group": "G.P. Popular (PP)",
+        "party": "VOX",
+        "seatNumber": 55,
+        "vote": "si",
+        "province": "Málaga"
+      },
+      {
+        "id": "dep-56",
+        "name": "Hernando Fraile, Rafael Antonio",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 56,
+        "vote": "si",
+        "province": "Almería"
+      },
+      {
+        "id": "dep-57",
+        "name": "Herrera García, Milena",
+        "group": "G.P. Popular (PP)",
+        "party": "PSIB-PSOE",
+        "seatNumber": 57,
+        "vote": "si",
+        "province": "Balears (Illes)"
+      },
+      {
+        "id": "dep-58",
+        "name": "Hispán Iglesias de Ussel, Pablo",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 58,
+        "vote": "si",
+        "province": "Granada"
+      },
+      {
+        "id": "dep-59",
+        "name": "Hita Téllez, Guillermo",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 59,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-60",
+        "name": "Hoyo Juliá, Belén",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 60,
+        "vote": "si",
+        "province": "Valencia/València"
+      },
+      {
+        "id": "dep-61",
+        "name": "Ibáñez Hernando, Ángel",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 61,
+        "vote": "si",
+        "province": "Burgos"
+      },
+      {
+        "id": "dep-62",
+        "name": "Ibáñez Mezquita, Alberto",
+        "group": "G.P. Popular (PP)",
+        "party": "SUMAR",
+        "seatNumber": 62,
+        "vote": "si",
+        "province": "Valencia/València"
+      },
+      {
+        "id": "dep-63",
+        "name": "Jordà i Roura, Teresa",
+        "group": "G.P. Popular (PP)",
+        "party": "ERC",
+        "seatNumber": 63,
+        "vote": "si",
+        "province": "Barcelona"
+      },
+      {
+        "id": "dep-64",
+        "name": "Lamuà Estañol, Marc",
+        "group": "G.P. Popular (PP)",
+        "party": "PSC-PSOE",
+        "seatNumber": 64,
+        "vote": "si",
+        "province": "Girona"
+      },
+      {
+        "id": "dep-65",
+        "name": "Leal Fernández, Isaura",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 65,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-66",
+        "name": "Legarda Uriarte, Mikel",
+        "group": "G.P. Popular (PP)",
+        "party": "EAJ-PNV",
+        "seatNumber": 66,
+        "vote": "si",
+        "province": "Araba/Álava"
+      },
+      {
+        "id": "dep-67",
+        "name": "López Álvarez, Patxi",
+        "group": "G.P. Popular (PP)",
+        "party": "PSE-EE (PSOE)",
+        "seatNumber": 67,
+        "vote": "si",
+        "province": "Bizkaia"
+      },
+      {
+        "id": "dep-68",
+        "name": "López Cano, Ignacio",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 68,
+        "vote": "si",
+        "province": "Málaga"
+      },
+      {
+        "id": "dep-69",
+        "name": "López Maraver, Ángel",
+        "group": "G.P. Popular (PP)",
+        "party": "VOX",
+        "seatNumber": 69,
+        "vote": "si",
+        "province": "Guadalajara"
+      },
+      {
+        "id": "dep-70",
+        "name": "Maldonado López, Adriana",
+        "group": "G.P. Popular (PP)",
+        "party": "PSN-PSOE",
+        "seatNumber": 70,
+        "vote": "si",
+        "province": "Navarra"
+      },
+      {
+        "id": "dep-71",
+        "name": "Marí Bosó, José Vicente",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 71,
+        "vote": "si",
+        "province": "Balears (Illes)"
+      },
+      {
+        "id": "dep-72",
+        "name": "Mariscal Anaya, Guillermo",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 72,
+        "vote": "si",
+        "province": "Palmas (Las)"
+      },
+      {
+        "id": "dep-73",
+        "name": "Martín Urriza, Carlos",
+        "group": "G.P. Popular (PP)",
+        "party": "SUMAR",
+        "seatNumber": 73,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-74",
+        "name": "Martínez Barbero, Verónica",
+        "group": "G.P. Popular (PP)",
+        "party": "SUMAR",
+        "seatNumber": 74,
+        "vote": "si",
+        "province": "Pontevedra"
+      },
+      {
+        "id": "dep-75",
+        "name": "Martínez Hierro, Lander",
+        "group": "G.P. Popular (PP)",
+        "party": "SUMAR",
+        "seatNumber": 75,
+        "vote": "si",
+        "province": "Bizkaia"
+      },
+      {
+        "id": "dep-76",
+        "name": "Martínez Ramírez, Carmen",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 76,
+        "vote": "si",
+        "province": "Valencia/València"
+      },
+      {
+        "id": "dep-77",
+        "name": "Martínez Salmerón, Joaquín",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 77,
+        "vote": "si",
+        "province": "Murcia"
+      },
+      {
+        "id": "dep-78",
+        "name": "Martínez Seijo, María Luz",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 78,
+        "vote": "si",
+        "province": "Palencia"
+      },
+      {
+        "id": "dep-79",
+        "name": "Matute García de Jalón, Oskar",
+        "group": "G.P. Popular (PP)",
+        "party": "EH Bildu",
+        "seatNumber": 79,
+        "vote": "si",
+        "province": "Bizkaia"
+      },
+      {
+        "id": "dep-80",
+        "name": "Mellado Sierra, Valle",
+        "group": "G.P. Popular (PP)",
+        "party": "PSC-PSOE",
+        "seatNumber": 80,
+        "vote": "si",
+        "province": "Tarragona"
+      },
+      {
+        "id": "dep-81",
+        "name": "Méndez Monasterio, Lourdes",
+        "group": "G.P. Popular (PP)",
+        "party": "VOX",
+        "seatNumber": 81,
+        "vote": "si",
+        "province": "Murcia"
+      },
+      {
+        "id": "dep-82",
+        "name": "Mínguez García, Montse",
+        "group": "G.P. Popular (PP)",
+        "party": "PSC-PSOE",
+        "seatNumber": 82,
+        "vote": "si",
+        "province": "Lleida"
+      },
+      {
+        "id": "dep-83",
+        "name": "Moneo Díez, María Sandra",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 83,
+        "vote": "si",
+        "province": "Burgos"
+      },
+      {
+        "id": "dep-84",
+        "name": "Montávez Aguillaume, Vicente",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 84,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-85",
+        "name": "Montesinos de Miguel, Macarena",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 85,
+        "vote": "si",
+        "province": "Alicante/Alacant"
+      },
+      {
+        "id": "dep-86",
+        "name": "Muñoz Abrines, Pedro",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 86,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-87",
+        "name": "Muñoz de la Iglesia, Ester",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 87,
+        "vote": "si",
+        "province": "León"
+      },
+      {
+        "id": "dep-88",
+        "name": "Narbona Ruiz, Cristina",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 88,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-89",
+        "name": "Nasarre Oliva, Begoña",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 89,
+        "vote": "si",
+        "province": "Huesca"
+      },
+      {
+        "id": "dep-90",
+        "name": "Navarro Lacoba, Carmen",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 90,
+        "vote": "si",
+        "province": "Albacete"
+      },
+      {
+        "id": "dep-91",
+        "name": "Nogueras i Camero, Míriam",
+        "group": "G.P. Popular (PP)",
+        "party": "JxCAT-JUNTS",
+        "seatNumber": 91,
+        "vote": "si",
+        "province": "Barcelona"
+      },
+      {
+        "id": "dep-92",
+        "name": "Núñez Feijóo, Alberto",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 92,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-93",
+        "name": "Núñez Guijarro, José Enrique",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 93,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-94",
+        "name": "Olano Vela, Jaime Eduardo de",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 94,
+        "vote": "si",
+        "province": "Lugo"
+      },
+      {
+        "id": "dep-95",
+        "name": "Otero Rodríguez, Patricia",
+        "group": "G.P. Popular (PP)",
+        "party": "PsdeG-PSOE",
+        "seatNumber": 95,
+        "vote": "si",
+        "province": "Lugo"
+      },
+      {
+        "id": "dep-96",
+        "name": "Peña Camarero, Esther",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 96,
+        "vote": "si",
+        "province": "Burgos"
+      },
+      {
+        "id": "dep-97",
+        "name": "Perea i Conillas, María Mercè",
+        "group": "G.P. Popular (PP)",
+        "party": "PSC-PSOE",
+        "seatNumber": 97,
+        "vote": "si",
+        "province": "Barcelona"
+      },
+      {
+        "id": "dep-98",
+        "name": "Pérez Coronado, Pablo",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 98,
+        "vote": "si",
+        "province": "Segovia"
+      },
+      {
+        "id": "dep-99",
+        "name": "Pérez López, Álvaro",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 99,
+        "vote": "si",
+        "province": "Coruña (A)"
+      },
+      {
+        "id": "dep-100",
+        "name": "Pisarello Prados, Gerardo",
+        "group": "G.P. Popular (PP)",
+        "party": "SUMAR",
+        "seatNumber": 100,
+        "vote": "si",
+        "province": "Barcelona"
+      },
+      {
+        "id": "dep-101",
+        "name": "Puente Santiago, Óscar",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 101,
+        "vote": "si",
+        "province": "Valladolid"
+      },
+      {
+        "id": "dep-102",
+        "name": "Puy Fraga, Pedro",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 102,
+        "vote": "si",
+        "province": "Pontevedra"
+      },
+      {
+        "id": "dep-103",
+        "name": "Ramírez Carner, Arnau",
+        "group": "G.P. Popular (PP)",
+        "party": "PSC-PSOE",
+        "seatNumber": 103,
+        "vote": "si",
+        "province": "Barcelona"
+      },
+      {
+        "id": "dep-104",
+        "name": "Ramírez Moreno, María de las Nieves",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 104,
+        "vote": "si",
+        "province": "Málaga"
+      },
+      {
+        "id": "dep-105",
+        "name": "Ramos Esteban, César Joaquín",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 105,
+        "vote": "si",
+        "province": "Cáceres"
+      },
+      {
+        "id": "dep-106",
+        "name": "Rego Candamil, Néstor",
+        "group": "G.P. Popular (PP)",
+        "party": "BNG",
+        "seatNumber": 106,
+        "vote": "si",
+        "province": "Coruña (A)"
+      },
+      {
+        "id": "dep-107",
+        "name": "Rodríguez Calleja, Patricia",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 107,
+        "vote": "si",
+        "province": "Ávila"
+      },
+      {
+        "id": "dep-108",
+        "name": "Rodríguez de Millán Parro, María José",
+        "group": "G.P. Popular (PP)",
+        "party": "VOX",
+        "seatNumber": 108,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-109",
+        "name": "Rodríguez Gómez de Celis, Alfonso",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 109,
+        "vote": "si",
+        "province": "Sevilla"
+      },
+      {
+        "id": "dep-110",
+        "name": "Rodríguez Salas, José Antonio",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 110,
+        "vote": "si",
+        "province": "Granada"
+      },
+      {
+        "id": "dep-111",
+        "name": "Rojas García, Carlos",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 111,
+        "vote": "si",
+        "province": "Granada"
+      },
+      {
+        "id": "dep-112",
+        "name": "Román Jasanada, Antonio",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 112,
+        "vote": "si",
+        "province": "Guadalajara"
+      },
+      {
+        "id": "dep-113",
+        "name": "Romero Pozo, Rafaela",
+        "group": "G.P. Popular (PP)",
+        "party": "PSE-EE (PSOE)",
+        "seatNumber": 113,
+        "vote": "si",
+        "province": "Gipuzkoa"
+      },
+      {
+        "id": "dep-114",
+        "name": "Romero Vilches, María de los Reyes",
+        "group": "G.P. Popular (PP)",
+        "party": "VOX",
+        "seatNumber": 114,
+        "vote": "si",
+        "province": "Sevilla"
+      },
+      {
+        "id": "dep-115",
+        "name": "Ros Martínez, Susana",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 115,
+        "vote": "si",
+        "province": "Castellón/Castelló"
+      },
+      {
+        "id": "dep-116",
+        "name": "Rufián Romero, Gabriel",
+        "group": "G.P. Popular (PP)",
+        "party": "ERC",
+        "seatNumber": 116,
+        "vote": "si",
+        "province": "Barcelona"
+      },
+      {
+        "id": "dep-117",
+        "name": "Ruiz Boix, Juan Carlos",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 117,
+        "vote": "si",
+        "province": "Cádiz"
+      },
+      {
+        "id": "dep-118",
+        "name": "Sahuquillo García, Luis Carlos",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 118,
+        "vote": "si",
+        "province": "Cuenca"
+      },
+      {
+        "id": "dep-119",
+        "name": "Sánchez García, José María",
+        "group": "G.P. Popular (PP)",
+        "party": "VOX",
+        "seatNumber": 119,
+        "vote": "si",
+        "province": "Alicante/Alacant"
+      },
+      {
+        "id": "dep-120",
+        "name": "Sánchez Sierra, María del Mar",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 120,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-121",
+        "name": "Sánchez Torregrosa, Maribel",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 121,
+        "vote": "si",
+        "province": "Almería"
+      },
+      {
+        "id": "dep-122",
+        "name": "Santiago Romero, Enrique Fernando",
+        "group": "G.P. Popular (PP)",
+        "party": "SUMAR",
+        "seatNumber": 122,
+        "vote": "si",
+        "province": "Córdoba"
+      },
+      {
+        "id": "dep-123",
+        "name": "Sayas López, Sergio",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 123,
+        "vote": "si",
+        "province": "Navarra"
+      },
+      {
+        "id": "dep-124",
+        "name": "Sémper Pascual, Borja",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 124,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-125",
+        "name": "Serrano Martínez, Juan Francisco",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 125,
+        "vote": "si",
+        "province": "Jaén"
+      },
+      {
+        "id": "dep-126",
+        "name": "Simancas Simancas, Rafael",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 126,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-127",
+        "name": "Soler Mur, Alejandro",
+        "group": "G.P. Popular (PP)",
+        "party": "PSOE",
+        "seatNumber": 127,
+        "vote": "si",
+        "province": "Alicante/Alacant"
+      },
+      {
+        "id": "dep-128",
+        "name": "Tellado Filgueira, Miguel",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 128,
+        "vote": "si",
+        "province": "Coruña (A)"
+      },
+      {
+        "id": "dep-129",
+        "name": "Teniente Sánchez, Cristina",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 129,
+        "vote": "si",
+        "province": "Cáceres"
+      },
+      {
+        "id": "dep-130",
+        "name": "Valero Morales, Juan Antonio",
+        "group": "G.P. Popular (PP)",
+        "party": "SUMAR",
+        "seatNumber": 130,
+        "vote": "si",
+        "province": "Málaga"
+      },
+      {
+        "id": "dep-131",
+        "name": "Vaquero Montero, Maribel",
+        "group": "G.P. Popular (PP)",
+        "party": "EAJ-PNV",
+        "seatNumber": 131,
+        "vote": "si",
+        "province": "Gipuzkoa"
+      },
+      {
+        "id": "dep-132",
+        "name": "Varela Pazos, Marta",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 132,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-133",
+        "name": "Vázquez Blanco, Ana Belén",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 133,
+        "vote": "si",
+        "province": "Ourense"
+      },
+      {
+        "id": "dep-134",
+        "name": "Velasco Morillo, Elvira",
+        "group": "G.P. Popular (PP)",
+        "party": "PP",
+        "seatNumber": 134,
+        "vote": "si",
+        "province": "Zamora"
+      },
+      {
+        "id": "dep-135",
+        "name": "Vidal Matas, Vicenç",
+        "group": "G.P. Popular (PP)",
+        "party": "SUMAR",
+        "seatNumber": 135,
+        "vote": "si",
+        "province": "Balears (Illes)"
+      },
+      {
+        "id": "dep-136",
+        "name": "Vidal Sáez, Aina",
+        "group": "G.P. Popular (PP)",
+        "party": "SUMAR",
+        "seatNumber": 136,
+        "vote": "si",
+        "province": "Barcelona"
+      },
+      {
+        "id": "dep-137",
+        "name": "Zaragoza Alonso, José",
+        "group": "G.P. Popular (PP)",
+        "party": "PSC-PSOE",
+        "seatNumber": 137,
+        "vote": "si",
+        "province": "Barcelona"
+      },
+      {
+        "id": "dep-138",
+        "name": "Diputado/a Escaño 138",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 138,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-139",
+        "name": "Diputado/a Escaño 139",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 139,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-140",
+        "name": "Diputado/a Escaño 140",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 140,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-141",
+        "name": "Diputado/a Escaño 141",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 141,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-142",
+        "name": "Diputado/a Escaño 142",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 142,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-143",
+        "name": "Diputado/a Escaño 143",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 143,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-144",
+        "name": "Diputado/a Escaño 144",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 144,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-145",
+        "name": "Diputado/a Escaño 145",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 145,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-146",
+        "name": "Diputado/a Escaño 146",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 146,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-147",
+        "name": "Diputado/a Escaño 147",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 147,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-148",
+        "name": "Diputado/a Escaño 148",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 148,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-149",
+        "name": "Diputado/a Escaño 149",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 149,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-150",
+        "name": "Diputado/a Escaño 150",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 150,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-151",
+        "name": "Diputado/a Escaño 151",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 151,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-152",
+        "name": "Diputado/a Escaño 152",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 152,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-153",
+        "name": "Diputado/a Escaño 153",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 153,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-154",
+        "name": "Diputado/a Escaño 154",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 154,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-155",
+        "name": "Diputado/a Escaño 155",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 155,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-156",
+        "name": "Diputado/a Escaño 156",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 156,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-157",
+        "name": "Diputado/a Escaño 157",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 157,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-158",
+        "name": "Diputado/a Escaño 158",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 158,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-159",
+        "name": "Diputado/a Escaño 159",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 159,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-160",
+        "name": "Diputado/a Escaño 160",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 160,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-161",
+        "name": "Diputado/a Escaño 161",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 161,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-162",
+        "name": "Diputado/a Escaño 162",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 162,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-163",
+        "name": "Diputado/a Escaño 163",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 163,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-164",
+        "name": "Diputado/a Escaño 164",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 164,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-165",
+        "name": "Diputado/a Escaño 165",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 165,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-166",
+        "name": "Diputado/a Escaño 166",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 166,
+        "vote": "si",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-167",
+        "name": "Diputado/a Escaño 167",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 167,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-168",
+        "name": "Diputado/a Escaño 168",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 168,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-169",
+        "name": "Diputado/a Escaño 169",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 169,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-170",
+        "name": "Diputado/a Escaño 170",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 170,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-171",
+        "name": "Diputado/a Escaño 171",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 171,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-172",
+        "name": "Diputado/a Escaño 172",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 172,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-173",
+        "name": "Diputado/a Escaño 173",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 173,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-174",
+        "name": "Diputado/a Escaño 174",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 174,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-175",
+        "name": "Diputado/a Escaño 175",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 175,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-176",
+        "name": "Diputado/a Escaño 176",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 176,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-177",
+        "name": "Diputado/a Escaño 177",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 177,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-178",
+        "name": "Diputado/a Escaño 178",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 178,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-179",
+        "name": "Diputado/a Escaño 179",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 179,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-180",
+        "name": "Diputado/a Escaño 180",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 180,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-181",
+        "name": "Diputado/a Escaño 181",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 181,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-182",
+        "name": "Diputado/a Escaño 182",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 182,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-183",
+        "name": "Diputado/a Escaño 183",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 183,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-184",
+        "name": "Diputado/a Escaño 184",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 184,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-185",
+        "name": "Diputado/a Escaño 185",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 185,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-186",
+        "name": "Diputado/a Escaño 186",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 186,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-187",
+        "name": "Diputado/a Escaño 187",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 187,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-188",
+        "name": "Diputado/a Escaño 188",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 188,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-189",
+        "name": "Diputado/a Escaño 189",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 189,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-190",
+        "name": "Diputado/a Escaño 190",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 190,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-191",
+        "name": "Diputado/a Escaño 191",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 191,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-192",
+        "name": "Diputado/a Escaño 192",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 192,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-193",
+        "name": "Diputado/a Escaño 193",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 193,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-194",
+        "name": "Diputado/a Escaño 194",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 194,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-195",
+        "name": "Diputado/a Escaño 195",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 195,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-196",
+        "name": "Diputado/a Escaño 196",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 196,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-197",
+        "name": "Diputado/a Escaño 197",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 197,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-198",
+        "name": "Diputado/a Escaño 198",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 198,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-199",
+        "name": "Diputado/a Escaño 199",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 199,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-200",
+        "name": "Diputado/a Escaño 200",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 200,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-201",
+        "name": "Diputado/a Escaño 201",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 201,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-202",
+        "name": "Diputado/a Escaño 202",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 202,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-203",
+        "name": "Diputado/a Escaño 203",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 203,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-204",
+        "name": "Diputado/a Escaño 204",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 204,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-205",
+        "name": "Diputado/a Escaño 205",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 205,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-206",
+        "name": "Diputado/a Escaño 206",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 206,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-207",
+        "name": "Diputado/a Escaño 207",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 207,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-208",
+        "name": "Diputado/a Escaño 208",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 208,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-209",
+        "name": "Diputado/a Escaño 209",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 209,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-210",
+        "name": "Diputado/a Escaño 210",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 210,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-211",
+        "name": "Diputado/a Escaño 211",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 211,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-212",
+        "name": "Diputado/a Escaño 212",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 212,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-213",
+        "name": "Diputado/a Escaño 213",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 213,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-214",
+        "name": "Diputado/a Escaño 214",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 214,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-215",
+        "name": "Diputado/a Escaño 215",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 215,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-216",
+        "name": "Diputado/a Escaño 216",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 216,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-217",
+        "name": "Diputado/a Escaño 217",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 217,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-218",
+        "name": "Diputado/a Escaño 218",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 218,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-219",
+        "name": "Diputado/a Escaño 219",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 219,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-220",
+        "name": "Diputado/a Escaño 220",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 220,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-221",
+        "name": "Diputado/a Escaño 221",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 221,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-222",
+        "name": "Diputado/a Escaño 222",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 222,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-223",
+        "name": "Diputado/a Escaño 223",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 223,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-224",
+        "name": "Diputado/a Escaño 224",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 224,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-225",
+        "name": "Diputado/a Escaño 225",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 225,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-226",
+        "name": "Diputado/a Escaño 226",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 226,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-227",
+        "name": "Diputado/a Escaño 227",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 227,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-228",
+        "name": "Diputado/a Escaño 228",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 228,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-229",
+        "name": "Diputado/a Escaño 229",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 229,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-230",
+        "name": "Diputado/a Escaño 230",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 230,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-231",
+        "name": "Diputado/a Escaño 231",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 231,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-232",
+        "name": "Diputado/a Escaño 232",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 232,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-233",
+        "name": "Diputado/a Escaño 233",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 233,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-234",
+        "name": "Diputado/a Escaño 234",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 234,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-235",
+        "name": "Diputado/a Escaño 235",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 235,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-236",
+        "name": "Diputado/a Escaño 236",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 236,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-237",
+        "name": "Diputado/a Escaño 237",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 237,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-238",
+        "name": "Diputado/a Escaño 238",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 238,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-239",
+        "name": "Diputado/a Escaño 239",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 239,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-240",
+        "name": "Diputado/a Escaño 240",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 240,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-241",
+        "name": "Diputado/a Escaño 241",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 241,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-242",
+        "name": "Diputado/a Escaño 242",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 242,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-243",
+        "name": "Diputado/a Escaño 243",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 243,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-244",
+        "name": "Diputado/a Escaño 244",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 244,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-245",
+        "name": "Diputado/a Escaño 245",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 245,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-246",
+        "name": "Diputado/a Escaño 246",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 246,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-247",
+        "name": "Diputado/a Escaño 247",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 247,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-248",
+        "name": "Diputado/a Escaño 248",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 248,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-249",
+        "name": "Diputado/a Escaño 249",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 249,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-250",
+        "name": "Diputado/a Escaño 250",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 250,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-251",
+        "name": "Diputado/a Escaño 251",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 251,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-252",
+        "name": "Diputado/a Escaño 252",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 252,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-253",
+        "name": "Diputado/a Escaño 253",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 253,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-254",
+        "name": "Diputado/a Escaño 254",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 254,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-255",
+        "name": "Diputado/a Escaño 255",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 255,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-256",
+        "name": "Diputado/a Escaño 256",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 256,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-257",
+        "name": "Diputado/a Escaño 257",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 257,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-258",
+        "name": "Diputado/a Escaño 258",
+        "group": "G.P. Socialista (PSOE)",
+        "party": "Socialista",
+        "seatNumber": 258,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-259",
+        "name": "Diputado/a Escaño 259",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 259,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-260",
+        "name": "Diputado/a Escaño 260",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 260,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-261",
+        "name": "Diputado/a Escaño 261",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 261,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-262",
+        "name": "Diputado/a Escaño 262",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 262,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-263",
+        "name": "Diputado/a Escaño 263",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 263,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-264",
+        "name": "Diputado/a Escaño 264",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 264,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-265",
+        "name": "Diputado/a Escaño 265",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 265,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-266",
+        "name": "Diputado/a Escaño 266",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 266,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-267",
+        "name": "Diputado/a Escaño 267",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 267,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-268",
+        "name": "Diputado/a Escaño 268",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 268,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-269",
+        "name": "Diputado/a Escaño 269",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 269,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-270",
+        "name": "Diputado/a Escaño 270",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 270,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-271",
+        "name": "Diputado/a Escaño 271",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 271,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-272",
+        "name": "Diputado/a Escaño 272",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 272,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-273",
+        "name": "Diputado/a Escaño 273",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 273,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-274",
+        "name": "Diputado/a Escaño 274",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 274,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-275",
+        "name": "Diputado/a Escaño 275",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 275,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-276",
+        "name": "Diputado/a Escaño 276",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 276,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-277",
+        "name": "Diputado/a Escaño 277",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 277,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-278",
+        "name": "Diputado/a Escaño 278",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 278,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-279",
+        "name": "Diputado/a Escaño 279",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 279,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-280",
+        "name": "Diputado/a Escaño 280",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 280,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-281",
+        "name": "Diputado/a Escaño 281",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 281,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-282",
+        "name": "Diputado/a Escaño 282",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 282,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-283",
+        "name": "Diputado/a Escaño 283",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 283,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-284",
+        "name": "Diputado/a Escaño 284",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 284,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-285",
+        "name": "Diputado/a Escaño 285",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 285,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-286",
+        "name": "Diputado/a Escaño 286",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 286,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-287",
+        "name": "Diputado/a Escaño 287",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 287,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-288",
+        "name": "Diputado/a Escaño 288",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 288,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-289",
+        "name": "Diputado/a Escaño 289",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 289,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-290",
+        "name": "Diputado/a Escaño 290",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 290,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-291",
+        "name": "Diputado/a Escaño 291",
+        "group": "G.P. VOX",
+        "party": "VOX",
+        "seatNumber": 291,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-292",
+        "name": "Diputado/a Escaño 292",
+        "group": "G.P. Plurinacional Sumar",
+        "party": "Plurinacional",
+        "seatNumber": 292,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-293",
+        "name": "Diputado/a Escaño 293",
+        "group": "G.P. Plurinacional Sumar",
+        "party": "Plurinacional",
+        "seatNumber": 293,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-294",
+        "name": "Diputado/a Escaño 294",
+        "group": "G.P. Plurinacional Sumar",
+        "party": "Plurinacional",
+        "seatNumber": 294,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-295",
+        "name": "Diputado/a Escaño 295",
+        "group": "G.P. Plurinacional Sumar",
+        "party": "Plurinacional",
+        "seatNumber": 295,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-296",
+        "name": "Diputado/a Escaño 296",
+        "group": "G.P. Plurinacional Sumar",
+        "party": "Plurinacional",
+        "seatNumber": 296,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-297",
+        "name": "Diputado/a Escaño 297",
+        "group": "G.P. Plurinacional Sumar",
+        "party": "Plurinacional",
+        "seatNumber": 297,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-298",
+        "name": "Diputado/a Escaño 298",
+        "group": "G.P. Plurinacional Sumar",
+        "party": "Plurinacional",
+        "seatNumber": 298,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-299",
+        "name": "Diputado/a Escaño 299",
+        "group": "G.P. Plurinacional Sumar",
+        "party": "Plurinacional",
+        "seatNumber": 299,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-300",
+        "name": "Diputado/a Escaño 300",
+        "group": "G.P. Plurinacional Sumar",
+        "party": "Plurinacional",
+        "seatNumber": 300,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-301",
+        "name": "Diputado/a Escaño 301",
+        "group": "G.P. Plurinacional Sumar",
+        "party": "Plurinacional",
+        "seatNumber": 301,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-302",
+        "name": "Diputado/a Escaño 302",
+        "group": "G.P. Plurinacional Sumar",
+        "party": "Plurinacional",
+        "seatNumber": 302,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-303",
+        "name": "Diputado/a Escaño 303",
+        "group": "G.P. Plurinacional Sumar",
+        "party": "Plurinacional",
+        "seatNumber": 303,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-304",
+        "name": "Diputado/a Escaño 304",
+        "group": "G.P. Plurinacional Sumar",
+        "party": "Plurinacional",
+        "seatNumber": 304,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-305",
+        "name": "Diputado/a Escaño 305",
+        "group": "G.P. Plurinacional Sumar",
+        "party": "Plurinacional",
+        "seatNumber": 305,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-306",
+        "name": "Diputado/a Escaño 306",
+        "group": "G.P. Plurinacional Sumar",
+        "party": "Plurinacional",
+        "seatNumber": 306,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-307",
+        "name": "Diputado/a Escaño 307",
+        "group": "G.P. Plurinacional Sumar",
+        "party": "Plurinacional",
+        "seatNumber": 307,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-308",
+        "name": "Diputado/a Escaño 308",
+        "group": "G.P. Plurinacional Sumar",
+        "party": "Plurinacional",
+        "seatNumber": 308,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-309",
+        "name": "Diputado/a Escaño 309",
+        "group": "G.P. Plurinacional Sumar",
+        "party": "Plurinacional",
+        "seatNumber": 309,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-310",
+        "name": "Diputado/a Escaño 310",
+        "group": "G.P. Plurinacional Sumar",
+        "party": "Plurinacional",
+        "seatNumber": 310,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-311",
+        "name": "Diputado/a Escaño 311",
+        "group": "G.P. Plurinacional Sumar",
+        "party": "Plurinacional",
+        "seatNumber": 311,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-312",
+        "name": "Diputado/a Escaño 312",
+        "group": "G.P. Plurinacional Sumar",
+        "party": "Plurinacional",
+        "seatNumber": 312,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-313",
+        "name": "Diputado/a Escaño 313",
+        "group": "G.P. Plurinacional Sumar",
+        "party": "Plurinacional",
+        "seatNumber": 313,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-314",
+        "name": "Diputado/a Escaño 314",
+        "group": "G.P. Plurinacional Sumar",
+        "party": "Plurinacional",
+        "seatNumber": 314,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-315",
+        "name": "Diputado/a Escaño 315",
+        "group": "G.P. Plurinacional Sumar",
+        "party": "Plurinacional",
+        "seatNumber": 315,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-316",
+        "name": "Diputado/a Escaño 316",
+        "group": "G.P. Plurinacional Sumar",
+        "party": "Plurinacional",
+        "seatNumber": 316,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-317",
+        "name": "Diputado/a Escaño 317",
+        "group": "G.P. Plurinacional Sumar",
+        "party": "Plurinacional",
+        "seatNumber": 317,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-318",
+        "name": "Diputado/a Escaño 318",
+        "group": "G.P. Plurinacional Sumar",
+        "party": "Plurinacional",
+        "seatNumber": 318,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-319",
+        "name": "Diputado/a Escaño 319",
+        "group": "G.P. Republicano (ERC)",
+        "party": "Republicano",
+        "seatNumber": 319,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-320",
+        "name": "Diputado/a Escaño 320",
+        "group": "G.P. Republicano (ERC)",
+        "party": "Republicano",
+        "seatNumber": 320,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-321",
+        "name": "Diputado/a Escaño 321",
+        "group": "G.P. Republicano (ERC)",
+        "party": "Republicano",
+        "seatNumber": 321,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-322",
+        "name": "Diputado/a Escaño 322",
+        "group": "G.P. Republicano (ERC)",
+        "party": "Republicano",
+        "seatNumber": 322,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-323",
+        "name": "Diputado/a Escaño 323",
+        "group": "G.P. Republicano (ERC)",
+        "party": "Republicano",
+        "seatNumber": 323,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-324",
+        "name": "Diputado/a Escaño 324",
+        "group": "G.P. Republicano (ERC)",
+        "party": "Republicano",
+        "seatNumber": 324,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-325",
+        "name": "Diputado/a Escaño 325",
+        "group": "G.P. Republicano (ERC)",
+        "party": "Republicano",
+        "seatNumber": 325,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-326",
+        "name": "Diputado/a Escaño 326",
+        "group": "G.P. Junts per Catalunya",
+        "party": "Junts",
+        "seatNumber": 326,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-327",
+        "name": "Diputado/a Escaño 327",
+        "group": "G.P. Junts per Catalunya",
+        "party": "Junts",
+        "seatNumber": 327,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-328",
+        "name": "Diputado/a Escaño 328",
+        "group": "G.P. Junts per Catalunya",
+        "party": "Junts",
+        "seatNumber": 328,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-329",
+        "name": "Diputado/a Escaño 329",
+        "group": "G.P. Junts per Catalunya",
+        "party": "Junts",
+        "seatNumber": 329,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-330",
+        "name": "Diputado/a Escaño 330",
+        "group": "G.P. Junts per Catalunya",
+        "party": "Junts",
+        "seatNumber": 330,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-331",
+        "name": "Diputado/a Escaño 331",
+        "group": "G.P. Junts per Catalunya",
+        "party": "Junts",
+        "seatNumber": 331,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-332",
+        "name": "Diputado/a Escaño 332",
+        "group": "G.P. Junts per Catalunya",
+        "party": "Junts",
+        "seatNumber": 332,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-333",
+        "name": "Diputado/a Escaño 333",
+        "group": "G.P. Euskal Herria Bildu",
+        "party": "Euskal",
+        "seatNumber": 333,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-334",
+        "name": "Diputado/a Escaño 334",
+        "group": "G.P. Euskal Herria Bildu",
+        "party": "Euskal",
+        "seatNumber": 334,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-335",
+        "name": "Diputado/a Escaño 335",
+        "group": "G.P. Euskal Herria Bildu",
+        "party": "Euskal",
+        "seatNumber": 335,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-336",
+        "name": "Diputado/a Escaño 336",
+        "group": "G.P. Euskal Herria Bildu",
+        "party": "Euskal",
+        "seatNumber": 336,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-337",
+        "name": "Diputado/a Escaño 337",
+        "group": "G.P. Euskal Herria Bildu",
+        "party": "Euskal",
+        "seatNumber": 337,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-338",
+        "name": "Diputado/a Escaño 338",
+        "group": "G.P. Euskal Herria Bildu",
+        "party": "Euskal",
+        "seatNumber": 338,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-339",
+        "name": "Diputado/a Escaño 339",
+        "group": "G.P. Vasco (EAJ-PNV)",
+        "party": "Vasco",
+        "seatNumber": 339,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-340",
+        "name": "Diputado/a Escaño 340",
+        "group": "G.P. Vasco (EAJ-PNV)",
+        "party": "Vasco",
+        "seatNumber": 340,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-341",
+        "name": "Diputado/a Escaño 341",
+        "group": "G.P. Vasco (EAJ-PNV)",
+        "party": "Vasco",
+        "seatNumber": 341,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-342",
+        "name": "Diputado/a Escaño 342",
+        "group": "G.P. Vasco (EAJ-PNV)",
+        "party": "Vasco",
+        "seatNumber": 342,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-343",
+        "name": "Diputado/a Escaño 343",
+        "group": "G.P. Vasco (EAJ-PNV)",
+        "party": "Vasco",
+        "seatNumber": 343,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-344",
+        "name": "Diputado/a Escaño 344",
+        "group": "G.P. Mixto (Podemos/BNG/CC/UPN)",
+        "party": "Mixto",
+        "seatNumber": 344,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-345",
+        "name": "Diputado/a Escaño 345",
+        "group": "G.P. Mixto (Podemos/BNG/CC/UPN)",
+        "party": "Mixto",
+        "seatNumber": 345,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-346",
+        "name": "Diputado/a Escaño 346",
+        "group": "G.P. Mixto (Podemos/BNG/CC/UPN)",
+        "party": "Mixto",
+        "seatNumber": 346,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-347",
+        "name": "Diputado/a Escaño 347",
+        "group": "G.P. Mixto (Podemos/BNG/CC/UPN)",
+        "party": "Mixto",
+        "seatNumber": 347,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-348",
+        "name": "Diputado/a Escaño 348",
+        "group": "G.P. Mixto (Podemos/BNG/CC/UPN)",
+        "party": "Mixto",
+        "seatNumber": 348,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-349",
+        "name": "Diputado/a Escaño 349",
+        "group": "G.P. Mixto (Podemos/BNG/CC/UPN)",
+        "party": "Mixto",
+        "seatNumber": 349,
+        "vote": "no",
+        "province": "Madrid"
+      },
+      {
+        "id": "dep-350",
+        "name": "Diputado/a Escaño 350",
+        "group": "G.P. Mixto (Podemos/BNG/CC/UPN)",
+        "party": "Mixto",
+        "seatNumber": 350,
+        "vote": "no",
+        "province": "Madrid"
+      }
+    ],
+    "bocgUrl": "https://www.congreso.es/datos-abiertos",
+    "expedienteNumber": "130/000056"
+  }
+]

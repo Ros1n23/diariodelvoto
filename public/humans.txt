@@ -1,0 +1,19 @@
+/* EQUIPO Y MISIÓN */
+    Iniciativa: QueVotan (Gaceta Cívica y Diario Parlamentario)
+    Misión: Transparencia democrática, divulgación rigurosa sin sesgo y rendición de cuentas pública.
+    País: España
+    Web: https://quevotan.es
+    Contacto: contacto@quevotan.es
+
+/* TECNOLOGÍA */
+    Frontend: React 19, TypeScript, Tailwind CSS
+    Tipografía: UnifrakturMaguntia, Playfair Display, Newsreader, Courier Prime
+    Almacenamiento: SQLite (node:sqlite & python sqlite3)
+    Pipeline IA Cívica: Local LLM (Ollama) & Google Gemini Fallback con caché SQLite
+    Servidor Web: Nginx Reverse Proxy, Debian Bookworm
+    Privacidad: Cero Cookies de Terceros (Zero-Cookies Architecture)
+
+/* FUENTES DE INFORMACIÓN */
+    Boletín Oficial de las Cortes Generales (BOCG)
+    Diario de Sesiones del Congreso de los Diputados y del Senado
+    Portal de Datos Abiertos de las Cortes Generales

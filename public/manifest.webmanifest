@@ -1,0 +1,17 @@
+{
+  "name": "QueVotan — Diario Cívico de las Cortes Generales",
+  "short_name": "QueVotan",
+  "description": "Explicaciones claras y neutrales de qué vota cada diputado en el Congreso de los Diputados y el Senado.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FBF8F1",
+  "theme_color": "#FAF7EE",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
