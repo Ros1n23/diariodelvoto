@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import type { Sponsor } from '../../types/parliament';
-import { X, Sparkles, ShieldAlert, CheckCircle2, ArrowRight, ArrowLeft, Loader2, Lock, ExternalLink } from 'lucide-react';
+import { X, Sparkles, ShieldAlert, CheckCircle2, ArrowRight, ArrowLeft, Loader2, Lock, ExternalLink, Info } from 'lucide-react';
 
 interface MecenasModalProps {
   isOpen: boolean;
@@ -22,17 +22,29 @@ export const MecenasModal: React.FC<MecenasModalProps> = ({
   const [message, setMessage] = useState('');
   const [amount, setAmount] = useState<number>(minNextBidEur);
 
-  // Estados de PayPal
-  const [sdkReady, setSdkReady] = useState(() => typeof window !== 'undefined' && Boolean((window as any).paypal));
+  // Referencias para evitar cierres obsoletos en callbacks
+  const nameRef = useRef(name);
+  const urlRef = useRef(url);
+  const messageRef = useRef(message);
+  const amountRef = useRef(amount);
+
+  useEffect(() => { nameRef.current = name; }, [name]);
+  useEffect(() => { urlRef.current = url; }, [url]);
+  useEffect(() => { messageRef.current = message; }, [message]);
+  useEffect(() => { amountRef.current = amount; }, [amount]);
+
+  // Estados de PayPal SDK v6
+  const [sdkReady, setSdkReady] = useState(false);
   const [sdkLoading, setSdkLoading] = useState(false);
   const [sdkError, setSdkError] = useState<string | null>(null);
+  const [paypalMode, setPaypalMode] = useState<string>('sandbox');
   const [capturing, setCapturing] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const paypalButtonsRef = useRef<any>(null);
+  const sdkInstanceRef = useRef<any>(null);
 
-  // Cargar SDK de PayPal al abrir el modal
+  // Cargar SDK v6 de PayPal al abrir el modal
   useEffect(() => {
-    if (!isOpen || (window as any).paypal) return;
+    if (!isOpen) return;
 
     let isCancelled = false;
 
@@ -48,28 +60,55 @@ export const MecenasModal: React.FC<MecenasModalProps> = ({
         if (!res.ok) throw new Error('No se pudo obtener la configuración de PayPal');
         return res.json();
       })
-      .then((cfg) => {
+      .then(async (cfg) => {
         if (isCancelled) return;
         const clientId = cfg.paypalClientId;
+        const mode = cfg.paypalMode || 'sandbox';
+        setPaypalMode(mode);
+
         if (!clientId) {
-          throw new Error('Identificador de cliente de PayPal no disponible');
+          throw new Error('Identificador de cliente de PayPal no disponible en el servidor');
         }
 
-        const existingScript = document.getElementById('paypal-sdk-script') as HTMLScriptElement | null;
+        // URL del SDK v6 según el entorno
+        const v6ScriptUrl = mode === 'live'
+          ? 'https://www.paypal.com/web-sdk/v6/core'
+          : 'https://www.sandbox.paypal.com/web-sdk/v6/core';
+
+        const initSdkInstance = async () => {
+          try {
+            if (!(window as any).paypal?.createInstance) {
+              throw new Error('PayPal SDK v6 no se cargó correctamente');
+            }
+            const instance = await (window as any).paypal.createInstance({
+              clientId,
+              components: ['paypal-payments'],
+              locale: 'es_ES',
+            });
+            if (!isCancelled) {
+              sdkInstanceRef.current = instance;
+              setSdkReady(true);
+              setSdkLoading(false);
+            }
+          } catch (initErr: any) {
+            if (!isCancelled) {
+              setSdkError(initErr.message || 'Error inicializando instancia del SDK v6');
+              setSdkLoading(false);
+            }
+          }
+        };
+
+        const existingScript = document.getElementById('paypal-sdk-v6-core') as HTMLScriptElement | null;
         if (existingScript) {
-          if ((window as any).paypal) {
-            setSdkReady(true);
-            setSdkLoading(false);
+          if ((window as any).paypal?.createInstance) {
+            await initSdkInstance();
           } else {
             existingScript.addEventListener('load', () => {
-              if (!isCancelled) {
-                setSdkReady(true);
-                setSdkLoading(false);
-              }
+              if (!isCancelled) initSdkInstance();
             });
             existingScript.addEventListener('error', () => {
               if (!isCancelled) {
-                setSdkError('Error al cargar la pasarela de PayPal');
+                setSdkError('Error al descargar el núcleo de PayPal SDK v6');
                 setSdkLoading(false);
               }
             });
@@ -78,18 +117,17 @@ export const MecenasModal: React.FC<MecenasModalProps> = ({
         }
 
         const script = document.createElement('script');
-        script.id = 'paypal-sdk-script';
-        script.src = `https://www.paypal.com/sdk/js?client-id=${encodeURIComponent(clientId)}&currency=EUR&locale=es_ES`;
+        script.id = 'paypal-sdk-v6-core';
+        script.src = v6ScriptUrl;
         script.async = true;
         script.onload = () => {
           if (!isCancelled) {
-            setSdkReady(true);
-            setSdkLoading(false);
+            initSdkInstance();
           }
         };
         script.onerror = () => {
           if (!isCancelled) {
-            setSdkError('No se pudo conectar con PayPal. Compruebe su conexión o desactive bloqueadores de publicidad.');
+            setSdkError('No se pudo conectar con PayPal (SDK v6). Compruebe bloqueadores de publicidad o red.');
             setSdkLoading(false);
           }
         };
@@ -107,48 +145,21 @@ export const MecenasModal: React.FC<MecenasModalProps> = ({
     };
   }, [isOpen]);
 
-  // Renderizar botones de PayPal en el paso de checkout
+  // Montar sesión y componente <paypal-button> en el paso de checkout
   useEffect(() => {
-    if (step !== 'checkout' || !sdkReady) return;
+    if (step !== 'checkout' || !sdkReady || !sdkInstanceRef.current) return;
 
     const container = document.getElementById('paypal-button-container');
-    if (!container || !(window as any).paypal) return;
+    if (!container) return;
 
     container.innerHTML = '';
 
     try {
-      const buttons = (window as any).paypal.Buttons({
-        style: {
-          layout: 'vertical',
-          color: 'gold',
-          shape: 'rect',
-          label: 'paypal',
-          height: 44,
-        },
-        createOrder: async () => {
-          setError(null);
-          try {
-            const res = await fetch('/api/sponsors/paypal-create-order', {
-              method: 'POST',
-              headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify({
-                amountEur: amount,
-                name: name.trim(),
-                url: url.trim(),
-                message: message.trim(),
-              }),
-            });
-            const data = await res.json();
-            if (!res.ok) {
-              throw new Error(data.error || 'Error al generar la orden en PayPal');
-            }
-            return data.orderId;
-          } catch (err: any) {
-            setError(err.message || 'Error al conectar con la pasarela');
-            throw err;
-          }
-        },
-        onApprove: async (data: any) => {
+      const sdk = sdkInstanceRef.current;
+
+      // 1. Crear sesión de pago único en el SDK v6
+      const session = sdk.createPayPalOneTimePaymentSession({
+        onApprove: async (data: { orderId: string }) => {
           setCapturing(true);
           setError(null);
           try {
@@ -156,48 +167,86 @@ export const MecenasModal: React.FC<MecenasModalProps> = ({
               method: 'POST',
               headers: { 'Content-Type': 'application/json' },
               body: JSON.stringify({
-                orderId: data.orderID,
-                name: name.trim(),
-                url: url.trim(),
-                message: message.trim(),
-                amountEur: amount,
+                orderId: data.orderId,
+                name: nameRef.current.trim(),
+                url: urlRef.current.trim(),
+                message: messageRef.current.trim(),
+                amountEur: amountRef.current,
               }),
             });
             const resData = await res.json();
             if (!res.ok) {
-              throw new Error(resData.error || 'Error al formalizar la captura del pago');
+              throw new Error(resData.error || 'Error al formalizar la captura del pago en PayPal');
             }
             setStep('success');
             onSuccess();
           } catch (err: any) {
-            setError(err.message || 'Error al procesar la confirmación del pago');
+            setError(err.message || 'Error al verificar el cobro en el servidor');
           } finally {
             setCapturing(false);
           }
         },
+        onCancel: () => {
+          // El usuario cerró la ventana de PayPal
+        },
         onError: (err: any) => {
-          console.error('PayPal button error:', err);
+          console.error('PayPal v6 session error:', err);
           setError('Ocurrió una incidencia con la pasarela de PayPal. Por favor, reinténtelo.');
         },
       });
 
-      paypalButtonsRef.current = buttons;
-      buttons.render('#paypal-button-container');
+      // 2. Crear elemento web component nativo <paypal-button>
+      const btn = document.createElement('paypal-button');
+      btn.setAttribute('type', 'pay');
+      btn.setAttribute('color', 'paypal-gold');
+      btn.style.width = '100%';
+      btn.style.display = 'block';
+      btn.style.minHeight = '44px';
+      btn.style.cursor = 'pointer';
+
+      // 3. Manejador de clic: invocar session.start de forma síncrona con la promesa del pedido
+      btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        setError(null);
+
+        const createOrderPromise = fetch('/api/sponsors/paypal-create-order', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            amountEur: amountRef.current,
+            name: nameRef.current.trim(),
+            url: urlRef.current.trim(),
+            message: messageRef.current.trim(),
+          }),
+        }).then(async (res) => {
+          const data = await res.json();
+          if (!res.ok) {
+            throw new Error(data.error || 'Error al generar la orden en PayPal');
+          }
+          return { orderId: data.orderId };
+        });
+
+        session.start(
+          { presentationMode: 'auto' },
+          createOrderPromise
+        ).catch((err: any) => {
+          console.error('PayPal v6 start error:', err);
+          setError(err.message || 'Error al iniciar la pasarela de PayPal');
+        });
+      });
+
+      container.appendChild(btn);
     } catch (e: any) {
-      console.error('Error renderizando botones de PayPal:', e);
-      setTimeout(() => setError('No fue posible renderizar los botones de PayPal.'), 0);
+      console.error('Error configurando PayPal SDK v6:', e);
+      setTimeout(() => setError('No fue posible inicializar los componentes de PayPal SDK v6.'), 0);
     }
 
     return () => {
-      if (paypalButtonsRef.current?.close) {
-        try {
-          paypalButtonsRef.current.close();
-        } catch {
-          // ignore
-        }
+      if (container) {
+        container.innerHTML = '';
       }
     };
-  }, [step, sdkReady, amount, name, url, message, onSuccess]);
+  }, [step, sdkReady, onSuccess]);
 
   if (!isOpen) return null;
 
@@ -307,7 +356,7 @@ export const MecenasModal: React.FC<MecenasModalProps> = ({
             </div>
           </div>
         ) : step === 'checkout' ? (
-          /* PASO 2: CONFIRMACIÓN Y PASARELA PAYPAL */
+          /* PASO 2: CONFIRMACIÓN Y PASARELA PAYPAL (SDK v6) */
           <div className="p-4 sm:p-5 space-y-4">
             <button
               onClick={() => { setStep('form'); setError(null); }}
@@ -352,6 +401,19 @@ export const MecenasModal: React.FC<MecenasModalProps> = ({
               </p>
             </div>
 
+            {/* Aviso Sandbox con credenciales de prueba */}
+            {paypalMode === 'sandbox' && (
+              <div className="p-2.5 bg-[#EFF6FF] border border-[#3B82F6] text-[#1E40AF] text-xs font-mono space-y-1">
+                <div className="flex items-center gap-1.5 font-bold">
+                  <Info className="w-3.5 h-3.5 shrink-0" />
+                  <span>Entorno de Pruebas (PayPal Sandbox):</span>
+                </div>
+                <p className="text-[11px] text-[#1E3A8A]">
+                  Cuenta Sandbox: <code>sb-ad8uu50869633@business.example.com</code>
+                </p>
+              </div>
+            )}
+
             {error && (
               <div className="p-2.5 bg-[#FDF2F2] border border-[#8F1D1D] text-[#8F1D1D] text-xs font-mono flex items-center gap-2">
                 <ShieldAlert className="w-4 h-4 shrink-0" />
@@ -359,16 +421,16 @@ export const MecenasModal: React.FC<MecenasModalProps> = ({
               </div>
             )}
 
-            {/* Contenedor de Botones de PayPal */}
+            {/* Contenedor de Botones de PayPal Web SDK v6 */}
             <div className="space-y-2 pt-1">
               <span className="text-[11px] font-mono uppercase text-[#1B1A17] font-bold block text-center">
-                Seleccione su método de abono seguro:
+                Abono seguro mediante PayPal SDK v6:
               </span>
 
               {sdkLoading && (
                 <div className="py-8 flex flex-col items-center justify-center gap-2 text-xs font-mono text-[#6E695F]">
                   <Loader2 className="w-6 h-6 animate-spin text-[#8F1D1D]" />
-                  <span>Conectando con la pasarela segura de PayPal...</span>
+                  <span>Conectando con la pasarela PayPal SDK v6...</span>
                 </div>
               )}
 
@@ -398,7 +460,7 @@ export const MecenasModal: React.FC<MecenasModalProps> = ({
 
               <div
                 id="paypal-button-container"
-                className={`min-h-[100px] transition ${capturing ? 'pointer-events-none opacity-40' : ''}`}
+                className={`min-h-[60px] transition flex items-center justify-center ${capturing ? 'pointer-events-none opacity-40' : ''}`}
               />
 
               <p className="text-[10px] font-editorial text-center text-[#6E695F] pt-1">
@@ -540,7 +602,7 @@ export const MecenasModal: React.FC<MecenasModalProps> = ({
                 <ArrowRight className="w-4 h-4 ml-1" />
               </button>
               <p className="text-[10px] font-editorial text-center text-[#6E695F] mt-2">
-                🔒 En el siguiente paso podrá abonar con PayPal o Tarjeta de forma 100% protegida.
+                🔒 En el siguiente paso podrá abonar con PayPal o Tarjeta de forma 100% protegida con PayPal SDK v6.
               </p>
             </div>
           </form>
