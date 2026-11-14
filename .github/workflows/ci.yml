@@ -1,4 +1,4 @@
-name: QueVotan CI — Integridad y Construcción
+name: Diario del Voto CI — Integridad y Construcción
 
 on:
   push:

@@ -1,8 +1,10 @@
+import os
 import sqlite3
 import datetime
 
-db_path = "/opt/quevotan/data/quevotan.db"
-sitemap_path = "/opt/quevotan/public/sitemap.xml"
+ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+db_path = os.path.join(ROOT_DIR, "data", "quevotan.db")
+sitemap_path = os.path.join(ROOT_DIR, "public", "sitemap.xml")
 
 conn = sqlite3.connect(db_path)
 c = conn.cursor()

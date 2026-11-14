@@ -90,8 +90,9 @@ for i, (b_title, b_sub, color) in enumerate(boxes_info):
 
 # Bottom footer
 draw.line([(60, 580), (WIDTH - 60, 580)], fill=BORDER_LIGHT, width=1)
-draw.text((WIDTH // 2, 595), "quevotan.es · Boletín Oficial de las Cortes Generales y Diario de Sesiones", fill=MUTED, font=font_mono, anchor="mm")
+draw.text((WIDTH // 2, 595), "diariodelvoto.es · Boletín Oficial de las Cortes Generales y Diario de Sesiones", fill=MUTED, font=font_mono, anchor="mm")
 
-output_path = "/opt/quevotan/public/og-cover.png"
+ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+output_path = os.path.join(ROOT_DIR, "public", "og-cover.png")
 img.save(output_path, "PNG", optimize=True)
 print(f"Generated {output_path} ({os.path.getsize(output_path)} bytes)")

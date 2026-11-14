@@ -3,8 +3,9 @@ import json
 import os
 import datetime
 
-db_path = "/opt/quevotan/data/quevotan.db"
-public_dir = "/opt/quevotan/public"
+ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+db_path = os.path.join(ROOT_DIR, "data", "quevotan.db")
+public_dir = os.path.join(ROOT_DIR, "public")
 llms_path = os.path.join(public_dir, "llms.txt")
 llms_full_path = os.path.join(public_dir, "llms-full.txt")
 

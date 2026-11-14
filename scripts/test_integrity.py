@@ -13,8 +13,9 @@ import urllib.request
 import urllib.error
 import xml.etree.ElementTree as ET
 
-DB_PATH = "/opt/quevotan/data/quevotan.db"
-PUBLIC_DIR = "/opt/quevotan/public"
+ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+DB_PATH = os.path.join(ROOT_DIR, "data", "quevotan.db")
+PUBLIC_DIR = os.path.join(ROOT_DIR, "public")
 BASE_URL = "http://127.0.0.1"
 
 def print_test(name: str, passed: bool, detail: str = ""):
