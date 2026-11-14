@@ -12,7 +12,7 @@ const PREDEFINED_REASONS = [
   { label: '🎰 Apuestas / Casinos', reason: 'No admitimos negocios de juegos de azar ni apuestas en nuestra gaceta.' },
   { label: '🪙 Criptomonedas / Trading', reason: 'No publicamos proyectos de especulación financiera, criptomonedas ni trading.' },
   { label: '📢 Curso Vendehumos', reason: 'Solo aceptamos proyectos y productos útiles; no admitimos fórmulas de enriquecimiento rápido.' },
-  { label: '⚖️ Propaganda Partidista', reason: 'QueVotan mantiene una estricta neutralidad parlamentaria; no admitimos consignas políticas partidistas.' },
+  { label: '⚖️ Propaganda Partidista', reason: 'Diario del Voto mantiene una estricta neutralidad parlamentaria; no admitimos consignas políticas partidistas.' },
   { label: '⚠️ Enlace Sospechoso / Spam', reason: 'El enlace o contenido proporcionado no cumple nuestros estándares de seguridad y confianza.' },
   { label: '✏️ Texto Inapropiado', reason: 'El texto remitido vulnera las normas básicas de respeto de la comunidad.' },
 ];

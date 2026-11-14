@@ -1,9 +1,9 @@
 /* EQUIPO Y MISIÓN */
-    Iniciativa: QueVotan (Gaceta Cívica y Diario Parlamentario)
+    Iniciativa: Diario del Voto (Gaceta Cívica y Diario Parlamentario)
     Misión: Transparencia democrática, divulgación rigurosa sin sesgo y rendición de cuentas pública.
     País: España
-    Web: https://quevotan.es
-    Contacto: contacto@quevotan.es
+    Web: https://diariodelvoto.es
+    Contacto: contacto@diariodelvoto.es
 
 /* TECNOLOGÍA */
     Frontend: React 19, TypeScript, Tailwind CSS

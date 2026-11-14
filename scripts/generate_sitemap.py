@@ -19,7 +19,7 @@ xml_lines = [
     '<?xml version="1.0" encoding="UTF-8"?>',
     '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
     '  <url>',
-    '    <loc>https://quevotan.es/</loc>',
+    '    <loc>https://diariodelvoto.es/</loc>',
     f'    <lastmod>{today}</lastmod>',
     '    <changefreq>daily</changefreq>',
     '    <priority>1.0</priority>',
@@ -29,7 +29,7 @@ xml_lines = [
 for d in dates:
     xml_lines.extend([
         '  <url>',
-        f'    <loc>https://quevotan.es/?date={d}</loc>',
+        f'    <loc>https://diariodelvoto.es/?date={d}</loc>',
         f'    <lastmod>{d}</lastmod>',
         '    <changefreq>monthly</changefreq>',
         '    <priority>0.8</priority>',
@@ -39,7 +39,7 @@ for d in dates:
 for init_id, session_date in initiatives:
     xml_lines.extend([
         '  <url>',
-        f'    <loc>https://quevotan.es/?initiative={init_id}</loc>',
+        f'    <loc>https://diariodelvoto.es/?initiative={init_id}</loc>',
         f'    <lastmod>{session_date}</lastmod>',
         '    <changefreq>never</changefreq>',
         '    <priority>0.7</priority>',

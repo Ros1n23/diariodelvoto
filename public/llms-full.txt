@@ -1,8 +1,8 @@
-# QueVotan — Base de Datos Completa de Votaciones y Análisis Parlamentario (2026)
+# Diario del Voto — Base de Datos Completa de Votaciones y Análisis Parlamentario (2026)
 
 > Compendio exhaustivo de iniciativas, leyes, reales decretos-leyes, despiece de medidas, impacto en la ciudadanía y desglose nominal de votos en las Cortes Generales de España.
 > Fecha de exportación: 2026-11-14
-> Portal web: https://quevotan.es
+> Portal web: https://diariodelvoto.es
 
 ---
 

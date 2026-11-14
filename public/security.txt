@@ -1,6 +1,6 @@
-Contact: mailto:seguridad@quevotan.es
+Contact: mailto:seguridad@diariodelvoto.es
 Expires: 2027-12-31T23:59:59.000Z
 Preferred-Languages: es, en
-Canonical: https://quevotan.es/.well-known/security.txt
-Policy: https://quevotan.es/#legal
-Acknowledgments: https://quevotan.es/#legal
+Canonical: https://diariodelvoto.es/.well-known/security.txt
+Policy: https://diariodelvoto.es/#legal
+Acknowledgments: https://diariodelvoto.es/#legal

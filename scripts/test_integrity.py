@@ -126,7 +126,7 @@ def test_public_and_seo_assets():
     manifest_path = os.path.join(PUBLIC_DIR, "manifest.webmanifest")
     with open(manifest_path, "r", encoding="utf-8") as f:
         manifest_data = json.load(f)
-    print_test("PWA manifest.webmanifest válido", "short_name" in manifest_data and manifest_data["short_name"] == "QueVotan")
+    print_test("PWA manifest.webmanifest válido", "short_name" in manifest_data and manifest_data["short_name"] in ["Diario del Voto", "QueVotan"])
 
 def test_http_security_and_api():
     print("\n🛡️ [4/4] Verificando Endpoints HTTP y Cabeceras de Seguridad Nginx...")
@@ -167,7 +167,7 @@ def test_http_security_and_api():
 
 if __name__ == "__main__":
     print("==================================================================")
-    print("      QUEVOTAN — BATERÍA DE PRUEBAS DE INTEGRIDAD DEL SISTEMA     ")
+    print("   DIARIO DEL VOTO — BATERÍA DE PRUEBAS DE INTEGRIDAD DEL SISTEMA  ")
     print("==================================================================")
     test_database_integrity()
     test_parliamentary_quorums()

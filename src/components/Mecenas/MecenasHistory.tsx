@@ -92,7 +92,7 @@ export const MecenasHistory: React.FC<MecenasHistoryProps> = ({
 
         {/* Pie */}
         <div className="bg-[#FAF7EE] border-t border-[#1B1A17] p-3 text-[11px] font-editorial text-center text-[#5C574F]">
-          El archivo de mecenas preserva el reconocimiento público a quienes sufragan la infraestructura cívica de QueVotan.
+          El archivo de mecenas preserva el reconocimiento público a quienes sufragan la infraestructura cívica de Diario del Voto.
         </div>
       </div>
     </div>

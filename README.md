@@ -1,6 +1,6 @@
-# 🏛️ QueVotan — Diario Cívico de las Cortes Generales y Escrutinio Parlamentario
+# 🏛️ Diario del Voto — Gaceta Cívica de las Cortes Generales y Escrutinio Parlamentario
 
-**QueVotan** es una plataforma cívica independiente y de código abierto concebida para acercar la actividad legislativa del Estado a la ciudadanía con rigor, neutralidad estricta y formato de gaceta periodística clásica (*broadsheet*).
+**Diario del Voto** es una plataforma cívica independiente y de código abierto concebida para acercar la actividad legislativa del Estado a la ciudadanía con rigor, neutralidad estricta y formato de gaceta periodística clásica (*broadsheet*).
 
 Explica sin tecnicismos ni artificios partidistas qué aprueban las Cámaras, qué votó nominalmente cada representante y qué impacto real y tangible tiene cada ley o decreto en el bolsillo, el trabajo, la vivienda y el día a día de las personas.
 

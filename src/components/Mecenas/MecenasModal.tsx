@@ -105,7 +105,7 @@ export const MecenasModal: React.FC<MecenasModalProps> = ({
               GACETA PARLAMENTARIA · AUSPICIO CÍVICO DE LA EDICIÓN
             </span>
             <h3 id="mecenas-modal-title" className="text-lg sm:text-xl font-headline font-bold text-[#1B1A17]">
-              Patrocinar la Próxima Edición de QueVotan
+              Patrocinar la Próxima Edición de Diario del Voto
             </h3>
           </div>
           <button
@@ -266,7 +266,7 @@ export const MecenasModal: React.FC<MecenasModalProps> = ({
                 <ArrowRight className="w-4 h-4 ml-1" />
               </button>
               <p className="text-[10px] font-editorial text-center text-[#6E695F] mt-2">
-                🔒 Cero datos bancarios almacenados en QueVotan. Si la dirección de la gaceta rechaza la publicación, se reembolsa el 100% de inmediato.
+                🔒 Cero datos bancarios almacenados en Diario del Voto. Si la dirección de la gaceta rechaza la publicación, se reembolsa el 100% de inmediato.
               </p>
             </div>
           </form>

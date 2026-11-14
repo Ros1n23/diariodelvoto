@@ -129,7 +129,7 @@ export const LegalModal: React.FC<LegalModalProps> = ({
                 1. Titularidad y Naturaleza de la Plataforma
               </h4>
               <p>
-                <strong>QueVotan</strong> es una iniciativa cívica, abierta y sin ánimo de lucro dedicada a acercar la actividad legislativa de las Cortes Generales (Congreso de los Diputados y Senado de España) a la ciudadanía mediante resúmenes accesibles, neutrales y verificables.
+                <strong>Diario del Voto</strong> es una iniciativa cívica, abierta y sin ánimo de lucro dedicada a acercar la actividad legislativa de las Cortes Generales (Congreso de los Diputados y Senado de España) a la ciudadanía mediante resúmenes accesibles, neutrales y verificables.
               </p>
               <p>
                 No representa a ninguna institución oficial del Estado, partido político, grupo parlamentario ni entidad con fines partidistas.
@@ -149,7 +149,7 @@ export const LegalModal: React.FC<LegalModalProps> = ({
                 3. Buzón Ciudadano y Corrección de Erratas
               </h4>
               <p>
-                Cualquier persona u organización que detecte una errata en el cómputo de un acta o en la síntesis de una iniciativa puede solicitar su rectificación inmediata mediante comunicación al buzón público de la plataforma: <strong className="font-mono text-[#8F1D1D]">contacto@quevotan.es</strong>.
+                Cualquier persona u organización que detecte una errata en el cómputo de un acta o en la síntesis de una iniciativa puede solicitar su rectificación inmediata mediante comunicación al buzón público de la plataforma: <strong className="font-mono text-[#8F1D1D]">contacto@diariodelvoto.es</strong>.
               </p>
             </div>
           )}
@@ -175,7 +175,7 @@ export const LegalModal: React.FC<LegalModalProps> = ({
                 2. Privacidad de los Visitantes y Lectores
               </h4>
               <p>
-                <strong>QueVotan NO exige registro ni cuentas de usuario.</strong> En estricta aplicación del principio de minimización de datos (Art. 5.1.c RGPD), la plataforma no almacena nombres, correos electrónicos ni datos identificativos de los lectores.
+                <strong>Diario del Voto NO exige registro ni cuentas de usuario.</strong> En estricta aplicación del principio de minimización de datos (Art. 5.1.c RGPD), la plataforma no almacena nombres, correos electrónicos ni datos identificativos de los lectores.
               </p>
               <p>
                 Los registros técnicos de conexión (logs de acceso del servidor web) registran exclusivamente metadatos esenciales de comunicación por motivos de seguridad informática y prevención de denegaciones de servicio (DoS), con política de rotación y depuración automática periódica.
@@ -185,7 +185,7 @@ export const LegalModal: React.FC<LegalModalProps> = ({
                 3. Derechos de los Interesados (ARCO / RGPD)
               </h4>
               <p>
-                Para cualquier consulta relativa al ejercicio de los derechos de acceso, rectificación o limitación del tratamiento, puede dirigirse por escrito a <strong className="font-mono text-[#1F4D36]">privacidad@quevotan.es</strong>.
+                Para cualquier consulta relativa al ejercicio de los derechos de acceso, rectificación o limitación del tratamiento, puede dirigirse por escrito a <strong className="font-mono text-[#1F4D36]">privacidad@diariodelvoto.es</strong>.
               </p>
             </div>
           )}
@@ -204,7 +204,7 @@ export const LegalModal: React.FC<LegalModalProps> = ({
                 El <strong>Artículo 22.2 de la LSSI-CE</strong> y las directrices de la Agencia Española de Protección de Datos (AEPD) exigen solicitar consentimiento previo únicamente cuando se instalan dispositivos de almacenamiento o rastreo en el equipo del usuario con fines publicitarios, de analítica invasiva o perfilado.
               </p>
               <p className="font-bold">
-                QueVotan no instala ninguna cookie publicitaria, ni cookies de terceros (sin Facebook Pixel, sin Google DoubleClick, sin balizas de retargeting).
+                Diario del Voto no instala ninguna cookie publicitaria, ni cookies de terceros (sin Facebook Pixel, sin Google DoubleClick, sin balizas de retargeting).
               </p>
 
               <h4 className="font-headline font-bold text-lg text-[#1B1A17]">
@@ -234,7 +234,7 @@ export const LegalModal: React.FC<LegalModalProps> = ({
                 1. Metodología de Despiece Equitativo
               </h4>
               <p>
-                Toda síntesis parlamentaria elaborada en QueVotan sigue un protocolo estricto de doble contraste:
+                Toda síntesis parlamentaria elaborada en Diario del Voto sigue un protocolo estricto de doble contraste:
               </p>
               <ul className="list-disc pl-5 space-y-1 text-sm">
                 <li><strong>Traducción divulgativa:</strong> Describir el alcance real de la ley (quién resulta beneficiado o gravado y qué importes o plazos estipula).</li>
@@ -272,7 +272,7 @@ export const LegalModal: React.FC<LegalModalProps> = ({
                 1. Filosofía Editorial: «Solo Proyectos y Productos Útiles de Verdad»
               </h4>
               <p>
-                El mecenazgo cívico de QueVotan está concebido para dar voz a proyectos con utilidad real para la ciudadanía: profesionales autónomos, oficios tradicionales (carpintería, fontanería, diseño, talleres), pymes de proximidad, software de código abierto, divulgación científica, libros y causas sociales.
+                El mecenazgo cívico de Diario del Voto está concebido para dar voz a proyectos con utilidad real para la ciudadanía: profesionales autónomos, oficios tradicionales (carpintería, fontanería, diseño, talleres), pymes de proximidad, software de código abierto, divulgación científica, libros y causas sociales.
               </p>
               <div className="p-3 bg-[#FDF2F2] border border-[#8F1D1D] text-xs font-mono text-[#8F1D1D] space-y-1">
                 <strong>VETO EDITORIAL ESTRICTO:</strong>
@@ -285,7 +285,7 @@ export const LegalModal: React.FC<LegalModalProps> = ({
                 2. Política de Privacidad Radical (Minimización de Datos)
               </h4>
               <p>
-                En aplicación del <strong>principio de minimización del RGPD</strong>, QueVotan solo almacena los datos indispensables y públicos por definición: el nombre de la iniciativa, su enlace web (`https://`) y el mensaje divulgativo de hasta 90 caracteres.
+                En aplicación del <strong>principio de minimización del RGPD</strong>, Diario del Voto solo almacena los datos indispensables y públicos por definición: el nombre de la iniciativa, su enlace web (`https://`) y el mensaje divulgativo de hasta 90 caracteres.
               </p>
               <ul className="list-disc pl-5 space-y-1 text-sm">
                 <li><strong>Cero datos bancarios o números de tarjeta:</strong> El pago se procesa al 100% en los servidores seguros y certificados de PayPal.</li>
@@ -305,7 +305,7 @@ export const LegalModal: React.FC<LegalModalProps> = ({
 
         {/* Pie del Modal */}
         <div className="bg-[#FAF7EE] border-t-2 border-[#1B1A17] p-3 px-6 flex flex-col sm:flex-row items-center justify-between gap-2 font-typewriter text-xs text-[#6E695F]">
-          <span>QueVotan · Transparencia Democrática y Acceso Universal</span>
+          <span>Diario del Voto · Transparencia Democrática y Acceso Universal</span>
           <button
             onClick={onClose}
             className="px-4 py-1.5 bg-[#1B1A17] text-[#FFFFFF] font-bold uppercase tracking-wider hover:bg-[#8F1D1D] transition shadow-[1px_1px_0px_#1B1A17]"

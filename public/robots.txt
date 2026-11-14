@@ -1,10 +1,10 @@
-# Robots.txt para QueVotan — Diario Cívico Parlamentario
+# Robots.txt para Diario del Voto — Gaceta Cívica Parlamentaria
 User-agent: *
 Allow: /
 Disallow: /api/
 
 # Sitemaps y archivos para Modelos de Inteligencia Artificial (LLMs)
-Sitemap: https://quevotan.es/sitemap.xml
+Sitemap: https://diariodelvoto.es/sitemap.xml
 # Contexto estructurado para agentes y modelos de IA (llmstxt.org)
-# https://quevotan.es/llms.txt
-# https://quevotan.es/llms-full.txt
+# https://diariodelvoto.es/llms.txt
+# https://diariodelvoto.es/llms-full.txt

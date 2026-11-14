@@ -20,9 +20,9 @@ today = datetime.date.today().isoformat()
 # -------------------------------------------------------------
 # 1. LLMS.TXT (CONCISE INDEX & OVERVIEW)
 # -------------------------------------------------------------
-llms_content = f"""# QueVotan — Diario Cívico de las Cortes Generales
+llms_content = f"""# Diario del Voto — Gaceta Cívica de las Cortes Generales
 
-> QueVotan (https://quevotan.es) es una plataforma cívica, abierta y sin ánimo de lucro dedicada al registro y divulgación neutral de las votaciones parlamentarias del Congreso de los Diputados y del Senado de España.
+> Diario del Voto (https://diariodelvoto.es) es una plataforma cívica, abierta y sin ánimo de lucro dedicada al registro y divulgación neutral de las votaciones parlamentarias del Congreso de los Diputados y del Senado de España.
 
 Última actualización de la base de datos: {today}
 Total de iniciativas parlamentarias indexadas: {len(initiatives)}
@@ -31,11 +31,11 @@ Compromiso de privacidad: Zero-Cookies (sin cookies de rastreo, sin perfilado ni
 
 ## Contenido disponible
 
-- [/llms-full.txt](https://quevotan.es/llms-full.txt): Texto completo de todas las iniciativas de 2026, medidas detalladas, ejemplos prácticos de impacto en la ciudadanía, argumentos a favor/en contra y sentido de voto nominal de los grupos parlamentarios.
-- [/sitemap.xml](https://quevotan.es/sitemap.xml): Mapa del sitio XML con todas las URLs de sesiones e iniciativas.
-- [/api/calendar?year=2026&month=10](https://quevotan.es/api/calendar?year=2026&month=10): API JSON de sesiones plenarias por mes.
-- [/api/initiatives](https://quevotan.es/api/initiatives): API JSON con todas las iniciativas registradas.
-- [/api/initiatives/:id](https://quevotan.es/api/initiatives/init-2026-10-24-01): API JSON del detalle de una iniciativa parlamentaria.
+- [/llms-full.txt](https://diariodelvoto.es/llms-full.txt): Texto completo de todas las iniciativas de 2026, medidas detalladas, ejemplos prácticos de impacto en la ciudadanía, argumentos a favor/en contra y sentido de voto nominal de los grupos parlamentarios.
+- [/sitemap.xml](https://diariodelvoto.es/sitemap.xml): Mapa del sitio XML con todas las URLs de sesiones e iniciativas.
+- [/api/calendar?year=2026&month=10](https://diariodelvoto.es/api/calendar?year=2026&month=10): API JSON de sesiones plenarias por mes.
+- [/api/initiatives](https://diariodelvoto.es/api/initiatives): API JSON con todas las iniciativas registradas.
+- [/api/initiatives/:id](https://diariodelvoto.es/api/initiatives/init-2026-10-24-01): API JSON del detalle de una iniciativa parlamentaria.
 
 ## Registro de Iniciativas Parlamentarias (2026)
 
@@ -49,7 +49,7 @@ for init in initiatives:
     votes_str = f"Sí: {v_si} | No: {v_no} | Abst: {v_abs}" if votes else "En tramitación"
     status_label = "Aprobada" if init["status"] == "aprobado" else ("Rechazada" if init["status"] == "rechazado" else "En debate")
     
-    llms_content += f"- [{init['session_date']}] [{init['category']}] [{init['title']}](https://quevotan.es/?initiative={init['id']}): {status_label} ({votes_str}). {init['summary'][:160]}...\n"
+    llms_content += f"- [{init['session_date']}] [{init['category']}] [{init['title']}](https://diariodelvoto.es/?initiative={init['id']}): {status_label} ({votes_str}). {init['summary'][:160]}...\n"
 
 llms_content += """
 ## Principios Metodológicos y Marco Legal
@@ -67,11 +67,11 @@ print(f"Generated {llms_path} ({len(llms_content)} chars)")
 # -------------------------------------------------------------
 # 2. LLMS-FULL.TXT (COMPREHENSIVE PARLIAMENTARY KNOWLEDGE BASE)
 # -------------------------------------------------------------
-llms_full_content = f"""# QueVotan — Base de Datos Completa de Votaciones y Análisis Parlamentario (2026)
+llms_full_content = f"""# Diario del Voto — Base de Datos Completa de Votaciones y Análisis Parlamentario (2026)
 
 > Compendio exhaustivo de iniciativas, leyes, reales decretos-leyes, despiece de medidas, impacto en la ciudadanía y desglose nominal de votos en las Cortes Generales de España.
 > Fecha de exportación: {today}
-> Portal web: https://quevotan.es
+> Portal web: https://diariodelvoto.es
 
 ---
 

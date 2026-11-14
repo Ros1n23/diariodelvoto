@@ -551,7 +551,7 @@ export function App() {
             className="text-5xl sm:text-6xl md:text-7xl font-masthead font-normal tracking-tight text-[#1B1A17] select-none hover:opacity-90 transition-opacity cursor-pointer leading-none"
             title="Haga clic para volver a la última sesión parlamentaria"
           >
-            QueVotan
+            Diario del Voto
           </h1>
           <p className="text-xs sm:text-sm font-headline italic tracking-wide text-[#4E4B44]">
             Explicar sin tecnicismos qué votan las Cámaras y cómo afecta a tu día a día
@@ -1010,7 +1010,7 @@ export function App() {
       <footer className="border-t-4 border-double border-[#1B1A17] bg-[#FAF7EE] py-6 text-center text-xs font-typewriter text-[#6E695F] space-y-3 mt-8">
         <div className="max-w-4xl mx-auto px-4 space-y-2">
           <p className="font-bold text-[#1B1A17] tracking-widest uppercase">
-            ✦ QUEVOTAN · DIARIO CÍVICO DE LAS CORTES GENERALES ✦
+            ✦ DIARIO DEL VOTO · GACETA CÍVICA DE LAS CORTES GENERALES ✦
           </p>
           <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-1 text-xs font-typewriter">
             <button
